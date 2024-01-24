@@ -23,10 +23,10 @@ logging.basicConfig(
 # download_file const/var
 DOWNLOAD_DIRECTORY = os.path.join("downloads", DATE_NOW)
 FILE_URLS = [
-    "https://github.com/MoH-Malaysia/data-darah-public/blob/main/donations_facility.csv",
-    "https://github.com/MoH-Malaysia/data-darah-public/blob/main/donations_state.csv",
-    "https://github.com/MoH-Malaysia/data-darah-public/blob/main/newdonors_facility.csv",
-    "https://github.com/MoH-Malaysia/data-darah-public/blob/main/newdonors_state.csv",
+    "https://raw.githubusercontent.com/MoH-Malaysia/data-darah-public/main/donations_facility.csv",
+    "https://raw.githubusercontent.com/MoH-Malaysia/data-darah-public/main/donations_state.csv",
+    "https://raw.githubusercontent.com/MoH-Malaysia/data-darah-public/main/newdonors_facility.csv",
+    "https://raw.githubusercontent.com/MoH-Malaysia/data-darah-public/main/newdonors_state.csv",
     "https://dub.sh/ds-data-granular"
 ]
 
