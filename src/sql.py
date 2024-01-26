@@ -1,3 +1,7 @@
+PREP_DATABASE = """
+CREATE DATABASE IF NOT EXISTS blood_donation_pipeline
+DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci 
+"""
 PREP_DONATIONS_FACILITY = """
 CREATE TABLE IF NOT EXISTS `donations_facility` (
   `date` date,
