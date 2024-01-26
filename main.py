@@ -2,6 +2,7 @@
 from datetime import datetime
 import logging
 import os
+from dotenv import load_dotenv
 from src.etl.extract import (
     validate_extension,
     download_file
@@ -10,6 +11,19 @@ from src.etl.transform import (
 	get_yesterdays_data,
 	validate_col,
 )
+from src.etl.load import (
+	prepare_tables_and_conn,
+	upload_data,
+)
+from src.sql import (
+	PREP_NEWDONORS_STATE,
+	PREP_NEWDONORS_FACILITY,
+	PREP_DS_DATA_GRANULAR,
+	PREP_DONATIONS_STATE,
+	PREP_DONATIONS_FACILITY,
+)
+
+load_dotenv()
 
 # misc const/var
 DATE_NOW = datetime.now().strftime("%Y/%m/%d")
@@ -26,6 +40,22 @@ logging.basicConfig(
     format="%(asctime)s : %(name)s : %(levelname)s : %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
 )
+
+# mysql creds
+DB_USER = os.environ.get("db_user")
+DB_PASSWORD = os.environ.get("db_password")
+DB_HOST = os.environ.get("db_host")
+DB_PORT = os.environ.get("db_port")
+DB_SCHEMA = os.environ.get("db_schema")
+
+# preperation query
+PREPERATION_QUERIES = [
+    PREP_NEWDONORS_STATE,
+    PREP_NEWDONORS_FACILITY,
+    PREP_DS_DATA_GRANULAR,
+    PREP_DONATIONS_STATE,
+    PREP_DONATIONS_FACILITY
+]
 
 # download_file & directory const/var
 RAW_DIR = os.path.join("data", "raw", DATE_NOW)
@@ -48,18 +78,36 @@ DATE_COLS = ['date', 'visit_date']
 
 def main():
     """main function"""
+    conn_str = prepare_tables_and_conn(
+        DB_USER,
+        DB_PASSWORD,
+        DB_HOST,
+        DB_PORT,
+        DB_SCHEMA,
+        PREPERATION_QUERIES
+    )
     logger.info("looping through FILE_URLS")
     for url in FILE_URLS:
-        # ds-data-granular
-        filename = validate_extension(url.rsplit('/', maxsplit=1)[-1])
-        download_file(url, RAW_DIR, filename)
-        staging_filepath = os.path.join(STAGING_DIR, filename)
-        cleaned_filepath = os.path.join(CLEANED_DIR, filename)
-        filepath = os.path.join(RAW_DIR, filename)
+        filename_with_ext = validate_extension(url.rsplit('/', maxsplit=1)[-1])
+        download_file(url, RAW_DIR, filename_with_ext)
+        staging_filepath = os.path.join(STAGING_DIR, filename_with_ext)
+        cleaned_filepath = os.path.join(CLEANED_DIR, filename_with_ext)
+        filepath = os.path.join(RAW_DIR, filename_with_ext)
         df = get_yesterdays_data(filepath, DATE_COLS)
-        df.to_csv(staging_filepath, index=False)
-        df_cleaned = validate_col(IGNORE_COLS, df)
-        df_cleaned.to_csv(cleaned_filepath, index=False)
+        filename, ext = os.path.splitext(filename_with_ext)
+        if ext == '.parquet':
+            df.to_parquet(staging_filepath, index=False)
+            df_cleaned = validate_col(IGNORE_COLS, df)
+            df_cleaned.to_parquet(cleaned_filepath, index=False)
+        elif ext == '.csv':
+            df.to_csv(staging_filepath, index=False)
+            df_cleaned = validate_col(IGNORE_COLS, df)
+            df_cleaned.to_csv(cleaned_filepath, index=False)
+        upload_data(
+            conn_str,
+            df_cleaned,
+            filename.replace("-", '_')
+        )
 
 if __name__ == "__main__":
     main()
