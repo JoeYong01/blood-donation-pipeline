@@ -1,4 +1,5 @@
 """main file"""
+import asyncio
 from datetime import datetime
 import logging
 import os
@@ -23,6 +24,7 @@ from src.sql import (
 	PREP_DONATIONS_STATE,
 	PREP_DONATIONS_FACILITY,
 )
+from src.notification import send_telegram_message
 
 load_dotenv()
 
@@ -42,15 +44,21 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 
-# mysql creds
+# mysql consts
 DB_USER = os.environ.get("db_user")
 DB_PASSWORD = os.environ.get("db_password")
 DB_HOST = os.environ.get("db_host")
 DB_PORT = os.environ.get("db_port")
 DB_SCHEMA = os.environ.get("db_schema")
 
+# telegram consts
+TELEGRAM_BOT_TOKEN = os.environ.get("telegram_bot_token")
+TELEGRAM_GROUP_ID = os.environ.get("telegram_group_id")
+TELEGRAM_TEXT = '<a href="https://lookerstudio.google.com/reporting/e20bfcff-b50b-498b-8780-e937f04146da">Dashboard here</a>'
+
 # preperation query
 PREPERATION_QUERIES = [
+    PREP_DATABASE,
     PREP_NEWDONORS_STATE,
     PREP_NEWDONORS_FACILITY,
     PREP_DS_DATA_GRANULAR,
@@ -77,7 +85,7 @@ FILE_URLS = [
 IGNORE_COLS = ['date', 'hospital', 'state', 'donor_id', 'visit_date']
 DATE_COLS = ['date', 'visit_date']
 
-def main():
+async def main():
     """main function"""
     conn_str = prepare_tables_and_conn(
         DB_USER,
@@ -109,6 +117,11 @@ def main():
             df_cleaned,
             filename.replace("-", '_')
         )
+    await send_telegram_message(
+        TELEGRAM_BOT_TOKEN,
+        TELEGRAM_GROUP_ID,
+        TELEGRAM_TEXT
+    )
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
