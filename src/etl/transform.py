@@ -135,3 +135,43 @@ def call_procedure(
     with engine.connect() as conn:
         logger.info("executing procedure")
         conn.execute(text(procedure))
+
+def process_parquet(
+    filepath: str
+) -> pd.DataFrame:
+    """
+    original sql statement turned into pandas operation due to /tmp limitation
+
+    Args:
+        filepath (str): filepath
+
+    Returns:
+        pd.DataFrame: pandas dataframe
+    """
+    df = pd.read_parquet(filepath)
+    df['visit_date'] = pd.to_datetime(df['visit_date'])
+
+    # Step 2: Replicate the donation_details CTE
+    df = df.sort_values(['donor_id', 'visit_date'])
+    df['next_visit_date'] = df.groupby('donor_id')['visit_date'].shift(-1)
+
+    # Now, 'visit_date' and 'next_visit_date' are datetime objects
+    df['is_churned'] = (df['next_visit_date'] - df['visit_date']).dt.days > 180
+    df['is_churned'] = df['is_churned'].astype(int)
+
+    # Step 4: Replicate the donor_churn_count CTE
+    donor_churn_count = df.groupby('donor_id')['is_churned'].sum().reset_index()
+    donor_churn_count.rename(columns={'is_churned': 'visits_before_churn'}, inplace=True)
+
+    # Step 5: Replicate the churn_distribution CTE
+    churn_distribution = donor_churn_count.groupby('visits_before_churn').size().reset_index(name='num_donors')
+
+    # Step 6: Replicate the total_donors CTE
+    total_donors = len(donor_churn_count['donor_id'].unique())
+
+    # Step 7: Final SELECT query
+    result = churn_distribution.copy()
+    result['percentage_of_total_donors'] = (result['num_donors'] / total_donors) * 100
+    result = result.sort_values('visits_before_churn')
+    
+    return result
