@@ -58,4 +58,4 @@ def upload_data(
     logger.info("running upload_data function")
     engine = create_engine(sqlalchemy_conn_str)
     logger.info("uploading data to database")
-    df.to_sql(table, engine, if_exists='append', index=False)
+    df.to_sql(table, engine, if_exists='append', index=False, chunksize=10000)
