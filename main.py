@@ -21,14 +21,14 @@ from src.etl.load import (
 )
 from src.sql import (
     PREP_DATABASE,
+    PREP_Q1_PROCEDURE,
 	PREP_NEWDONORS_STATE,
 	PREP_NEWDONORS_FACILITY,
 	PREP_DS_DATA_GRANULAR,
 	PREP_DONATIONS_STATE,
 	PREP_DONATIONS_FACILITY,
     QUERY_DATE,
-    QUESTION_1_PROCEDURE,
-    QUESTION_2_PROCEDURE
+    QUESTION_1_PROCEDURE
 )
 from src.notification import send_telegram_message
 
@@ -65,6 +65,7 @@ TELEGRAM_TEXT = '<a href="https://lookerstudio.google.com/reporting/e20bfcff-b50
 # preperation query
 PREPERATION_QUERIES = [
     PREP_DATABASE,
+    PREP_Q1_PROCEDURE,
     PREP_NEWDONORS_STATE,
     PREP_NEWDONORS_FACILITY,
     PREP_DS_DATA_GRANULAR,

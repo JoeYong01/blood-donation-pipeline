@@ -36,11 +36,14 @@ def prepare_tables_and_conn(
     )
     engine = create_engine(mysql_conn_str)
     logger.info("creating context manager")
-    with engine.connect() as conn:
-        logger.info("looping through query list")
-        for query in queries:
-            conn.execute(text(query))
-    logger.info("returning connection string")
+    try:
+        with engine.connect() as conn:
+            logger.info("looping through query list")
+            for query in queries:
+                conn.execute(text(query))
+        logger.info("returning connection string")
+    except Exception as e:
+        logger.error("sql error/warning: %s", e)
     return mysql_conn_str
 
 def upload_data(

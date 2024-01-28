@@ -2,6 +2,55 @@ PREP_DATABASE = """
 CREATE DATABASE IF NOT EXISTS blood_donation_pipeline
 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci 
 """
+PREP_Q1_PROCEDURE = """
+DELIMITER //
+CREATE PROCEDURE IF NOT EXISTS blood_donation_pipeline.reset_q1()
+BEGIN
+SET SQL_MODE = '';
+DROP TABLE IF EXISTS blood_donation_pipeline.q1;
+CREATE TABLE IF NOT EXISTS blood_donation_pipeline.q1 AS
+WITH result AS(
+SELECT
+	DATE_FORMAT(date, '%Y-%m') AS year_months,
+    state,
+    MIN(date) AS exact_date,
+    SUM(daily) AS total_donations,
+    SUM(donations_new) AS total_new_donations,
+    SUM(donations_new) / SUM(daily) * 100 AS pct_tnd_from_total,
+    SUM(donations_regular) AS total_regular_donations,
+    SUM(donations_regular) / SUM(daily) * 100 AS pct_trd_from_total
+FROM
+	donations_state
+GROUP BY
+	1, 2),
+
+calc AS(
+SELECT
+	year_months,
+    exact_date,
+    state,
+    total_donations,
+    total_new_donations,
+    ROUND((total_new_donations - LAG(total_new_donations) OVER (PARTITION BY state ORDER BY year_months)) / LAG(total_new_donations) OVER (PARTITION BY state ORDER BY year_months), 2) * 100 AS pct_change_tnd,
+    pct_tnd_from_total,
+    total_regular_donations,
+    ROUND((total_regular_donations - LAG(total_regular_donations) OVER (PARTITION BY state ORDER BY year_months)) / LAG(total_regular_donations) OVER (PARTITION BY state ORDER BY year_months), 2) * 100 AS pct_change_trd,
+    pct_trd_from_total
+FROM
+	result)
+    
+SELECT
+	*,
+    ROUND(AVG(pct_change_tnd) OVER(PARTITION BY state), 2) AS overall_pct_tnd,
+    ROUND(AVG(pct_tnd_from_total) OVER(PARTITION BY state), 2) AS overall_pct_tnd_from_total,
+    ROUND(AVG(pct_change_trd) OVER(PARTITION BY state), 2) AS overall_pct_trd,
+    ROUND(AVG(pct_trd_from_total) OVER(PARTITION BY state), 2) AS overall_pct_trd_from_total
+FROM	
+	calc;
+SET SQL_MODE = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+END //
+DELIMITER ;
+"""
 PREP_DONATIONS_FACILITY = """
 CREATE TABLE IF NOT EXISTS `donations_facility` (
   `date` date,
