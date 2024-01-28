@@ -30,7 +30,8 @@ from src.sql import (
     QUERY_DATE,
     QUESTION_1_PROCEDURE
 )
-from src.notification import send_telegram_message
+# from src.notification import send_telegram_message
+import requests
 
 load_dotenv()
 
@@ -134,11 +135,16 @@ async def main():
             filename.replace("-", '_')
         )
     call_procedure(conn_str, QUESTION_1_PROCEDURE)
-    await send_telegram_message(
-        TELEGRAM_BOT_TOKEN,
-        TELEGRAM_GROUP_ID,
-        TELEGRAM_TEXT
+    url_req = (
+        "https://api.telegram.org/bot" +
+        TELEGRAM_BOT_TOKEN +
+        "/sendMessage?chat_id=" +
+        TELEGRAM_GROUP_ID +
+        "&text=" +
+        TELEGRAM_TEXT +
+        "&parse_mode=HTML"
     )
+    requests.get(url_req)
 
 if __name__ == "__main__":
     asyncio.run(main())
