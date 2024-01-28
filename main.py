@@ -12,7 +12,8 @@ from src.etl.transform import (
     get_date_from_db,
 	get_latest_data,
 	validate_col,
-    call_procedure
+    call_procedure,
+    process_parquet
 )
 from src.etl.load import (
 	prepare_tables_and_conn,
@@ -114,6 +115,14 @@ async def main():
             df.to_parquet(staging_filepath, index=False)
             df_cleaned = validate_col(IGNORE_COLS, df)
             df_cleaned.to_parquet(cleaned_filepath, index=False)
+            # seprate job to transform the parquet data
+            parquet = process_parquet(filepath)
+            upload_data(
+                conn_str,
+                parquet,
+                'q2',
+                'replace'
+            )
         elif ext == '.csv':
             df.to_csv(staging_filepath, index=False)
             df_cleaned = validate_col(IGNORE_COLS, df)
@@ -124,7 +133,6 @@ async def main():
             filename.replace("-", '_')
         )
     call_procedure(conn_str, QUESTION_1_PROCEDURE)
-    call_procedure(conn_str, QUESTION_2_PROCEDURE)
     await send_telegram_message(
         TELEGRAM_BOT_TOKEN,
         TELEGRAM_GROUP_ID,
