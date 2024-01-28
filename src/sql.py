@@ -58,7 +58,9 @@ CREATE TABLE IF NOT EXISTS `ds_data_granular` (
   `visit_date` date,
   `birth_date` int DEFAULT NULL,
   KEY visit_date_idx (visit_date),
-  KEY birth_date_idx (birth_date)
+  KEY birth_date_idx (birth_date),
+  KEY donor_id_idx (donor_id),
+  KEY covering_idx (visit_date, donor_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 """
 PREP_NEWDONORS_FACILITY = """
@@ -98,4 +100,13 @@ CREATE TABLE IF NOT EXISTS `newdonors_state` (
   KEY date_idx (date),
   KEY state_idx (state)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+"""
+QUERY_DATE = """
+SELECT MAX(date) FROM blood_donation_pipeline.donations_facility;
+"""
+QUESTION_1_PROCEDURE = """
+CALL blood_donation_pipeline.reset_q1();
+"""
+QUESTION_2_PROCEDURE = """
+CALL blood_donation_pipeline.churn_analysis_reset();
 """

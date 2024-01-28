@@ -3,6 +3,7 @@ import logging
 import os
 from datetime import datetime, timedelta
 import pandas as pd
+from sqlalchemy import create_engine, text
 
 logger = logging.getLogger(os.path.basename(__file__))
 
@@ -25,8 +26,33 @@ def get_file_extension(
     logger.info("returning file_type")
     return file_type
 
-def get_yesterdays_data(
+def get_date_from_db(
+    sqlalchemy_conn_str: str,
+    query: str
+) -> str:
+    """
+    extracts the latest extracted data from the database.
+
+    Args:
+        sqlalchemy_conn_str (str): sqlalchemy connections tring
+        query (str): query to run
+
+    Returns:
+        str: date
+    """
+    logger.info("running get_date_from_db function")
+    engine = create_engine(sqlalchemy_conn_str)
+    logger.info("creating context manager")
+    with engine.connect() as conn:
+        logger.info("executing query")
+        result = conn.execute(text(query))
+        row = result.fetchone()
+        logger.info("returning date")
+        return str(row[0])
+
+def get_latest_data(
     filepath: str,
+    date: str,
     date_columns: list
 ) -> pd.DataFrame:
     """
@@ -34,15 +60,13 @@ def get_yesterdays_data(
 
     Args:
         filepath (str): full path to the file in question
+        date (str): date from get_date_from_db func
         date_column (list): a list of possible date columns
 
     Returns:
         pd.DataFrame: pandas dataframe with the latest data
     """
-    logger.info("running get_yesterdays_data function")
-    datetime_now = datetime.now()
-    datetime_ytd = datetime_now - timedelta(days=1)
-    date_ytd = datetime_ytd.strftime("%Y-%m-%d")
+    logger.info("running get_latest_data function")
     logger.debug("obtaining pd.read_* type")
     pandas_reader = {
         'csv': pd.read_csv,
@@ -51,16 +75,16 @@ def get_yesterdays_data(
     ext_type = get_file_extension(filepath)
     reader = pandas_reader.get(ext_type)
     if not reader:
-        error_message = "get_yesterdays_data only supports csv/parquet"
+        error_message = "get_latest_data only supports csv/parquet"
         logger.exception(error_message)
         raise ValueError(error_message)
     df = reader(filepath)
     for date_column in date_columns:
         if date_column in df.columns:
             logger.debug("filtering latest data from pandas dataframe.")
-            yesterdays_data = df[pd.to_datetime(df[f"{date_column}"]) == date_ytd]
+            latest_data = df[pd.to_datetime(df[date_column]) > pd.to_datetime(date)]
             logger.info("returning pandas dataframe")
-            return yesterdays_data
+            return latest_data
     error_message = "date columns not found in dataframe"
     logger.error(error_message)
     raise ValueError(error_message)
@@ -90,3 +114,24 @@ def validate_col(
             df[col] = df[col].mask(df[col] < 0)
     logger.info("returning dataframe")
     return df
+
+def call_procedure(
+    sqlalchemy_conn_str: str,
+    procedure: str
+) -> None:
+    """
+    calls a sql procedure to kick start table creation
+
+    Args:
+        sqlalchemy_conn_str (str): sqlalchemy connection string
+        procedure (str): mysql procedure to call
+    
+    Returns:
+        None
+    """
+    logger.info("running call_procedure function.")
+    engine = create_engine(sqlalchemy_conn_str)
+    logger.info("creating context manager")
+    with engine.connect() as conn:
+        logger.info("executing procedure")
+        conn.execute(text(procedure))
