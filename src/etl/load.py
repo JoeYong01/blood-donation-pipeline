@@ -46,7 +46,8 @@ def prepare_tables_and_conn(
 def upload_data(
     sqlalchemy_conn_str: str,
     df: pd.DataFrame,
-    table: str
+    table: str,
+    if_exists_condition: str = 'append'
 ) -> None:
     """
     uploads (appends) a dataframe to a mysql database
@@ -54,8 +55,9 @@ def upload_data(
     Args:
         dataframe (pd.DataFrame): dataframe to upload
         table (str): table to upload to
+        if_exists_condition (str): if_exists condition. Default to 'append'
     """
     logger.info("running upload_data function")
     engine = create_engine(sqlalchemy_conn_str)
     logger.info("uploading data to database")
-    df.to_sql(table, engine, if_exists='append', index=False, chunksize=10000)
+    df.to_sql(table, engine, if_exists=if_exists_condition, index=False, chunksize=10000)
