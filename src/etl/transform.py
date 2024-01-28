@@ -172,6 +172,7 @@ def process_parquet(
     # Step 7: Final SELECT query
     result = churn_distribution.copy()
     result['percentage_of_total_donors'] = (result['num_donors'] / total_donors) * 100
+    result['visits_before_churn'] = result['visits_before_churn'] + 1
     result = result.sort_values('visits_before_churn')
     
     return result
