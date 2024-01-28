@@ -9,8 +9,10 @@ from src.etl.extract import (
     download_file
 )
 from src.etl.transform import (
-	get_yesterdays_data,
+    get_date_from_db,
+	get_latest_data,
 	validate_col,
+    call_procedure
 )
 from src.etl.load import (
 	prepare_tables_and_conn,
@@ -23,6 +25,9 @@ from src.sql import (
 	PREP_DS_DATA_GRANULAR,
 	PREP_DONATIONS_STATE,
 	PREP_DONATIONS_FACILITY,
+    QUERY_DATE,
+    QUESTION_1_PROCEDURE,
+    QUESTION_2_PROCEDURE
 )
 from src.notification import send_telegram_message
 
@@ -102,7 +107,8 @@ async def main():
         staging_filepath = os.path.join(STAGING_DIR, filename_with_ext)
         cleaned_filepath = os.path.join(CLEANED_DIR, filename_with_ext)
         filepath = os.path.join(RAW_DIR, filename_with_ext)
-        df = get_yesterdays_data(filepath, DATE_COLS)
+        latest_date = get_date_from_db(conn_str, QUERY_DATE)
+        df = get_latest_data(filepath, latest_date, DATE_COLS)
         filename, ext = os.path.splitext(filename_with_ext)
         if ext == '.parquet':
             df.to_parquet(staging_filepath, index=False)
@@ -117,6 +123,8 @@ async def main():
             df_cleaned,
             filename.replace("-", '_')
         )
+    call_procedure(conn_str, QUESTION_1_PROCEDURE)
+    call_procedure(conn_str, QUESTION_2_PROCEDURE)
     await send_telegram_message(
         TELEGRAM_BOT_TOKEN,
         TELEGRAM_GROUP_ID,
