@@ -5,3 +5,5 @@ fastparquet
 sqlalchemy 
 mysql-connector-python 
 python-telegram-bot
+pytest
+pytest-asyncio
