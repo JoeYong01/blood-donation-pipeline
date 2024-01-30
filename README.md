@@ -25,7 +25,7 @@ A pipeline to pull & process data from github into a mysql database, visualized 
 2. Prepare the target database by creating tables, indexes, & procedures in advance.
 3. pulls the source data from the [github](https://github.com/MoH-Malaysia/data-darah-public) raw files & (parquet)[https://dub.sh/ds-data-granular] link given into [data/raw] directory
 4. Filters latest data into [data/staging] directory by extracting the latest date column in database, then slicing the the retrieved raw files.
-   > This is done as I notice data is not updated everyday, so there is a chance that we may miss some data if we only slice "yesterday's data".
+   > This is done as I notice data is not updated everyday, so there is a chance that we may miss some data if we only slice "yesterday's data". I also realize this exposes the telegram bot token in logs, therefore I've redacted it on the repo.
 5. Validates the data to ensure the columns have no outliers (str in date/str in int) into the [data/cleaned] directory
    1. - The parquet file goes through addtional processing and transformation, as sql database runs out of [/tmp] to do aggregation
    2. - The parquet files are then directly uploaded to the database (on the ec2)
