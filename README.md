@@ -43,7 +43,6 @@ A pipeline to pull & process data from github into a mysql database, visualized 
   python main.py
   >
   > However when ran via an airflow BashOperator, it cannot import the python-telegram-package.
-- There is one big limitation, just because the bot has notified the group, doesn't necessarily mean the data is updated, it depends on when the underlying data source has been refresh, because of this the data may be delayed by up to 30 minutes from the notification sent.
 - the docker-compose.yaml is only the base one I've used with a slight modifications so that it can use the github repo as they're both in separate directories on ec2 in #volumes section
 - I wrap the sql preperation queries in a try block, as I've had certain warning's on mysql get flagged as exceptions and stops the code.
 
