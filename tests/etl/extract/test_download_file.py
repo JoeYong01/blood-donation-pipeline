@@ -5,7 +5,7 @@ from unittest.mock import patch, mock_open
 
 @patch('src.etl.extract.requests.get')
 @patch('src.etl.extract.os.makedirs')
-@patch('etl.extract.open', new_callable=mock_open)
+@patch('src.etl.extract.open', new_callable=mock_open)
 @patch('src.etl.extract.validate_extension')
 def test_download_file_success(mock_validate_extension, mock_file, mock_makedirs, mock_requests_get):
     # Set up a mock response for requests.get
