@@ -15,8 +15,8 @@ A pipeline to pull & process data from github into a mysql database, visualized 
 
 ```
 /home/ubuntu
-| -- airflow                        # contains the dockerized airflow instance
-| -- blood-donation-pipeline        # contains the github repo
+| -- /airflow                        # contains the dockerized airflow instance
+| -- /blood-donation-pipeline        # contains the github repo
 ```
 
 ### Workflow
