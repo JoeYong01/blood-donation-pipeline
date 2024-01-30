@@ -3,12 +3,14 @@ A pipeline to pull & process data from github into a mysql database, visualized 
 
 ```
 /project-root
-| -- /data         # contains [raw/staging/cleaned] directories for processed data
-| -- /logs         # contains application logs
-| -- misc          # contains misc scipts including dags, (base) docker-compose, lambda functions
-| -- src           # contains sql code & notifications source files
-| -- src/etl       # contains [extract/transform/load] source files 
-| -- tests         # contains pytest tests
+| -- /data                    # contains [raw/staging/cleaned] directories for processed data
+| -- /logs                    # contains application logs
+| -- /misc                    # contains misc scipts [dags, (base) docker-compose, lambda functions]
+| -- /src                     # contains sql code & notifications source files
+| -- /src/etl                 # contains [extract/transform/load] source files 
+| -- /tests                   # contains pytest tests
+| -- bash-start-script.sh     # contains the bash script to run the pipeline
+| -- main.py                  # main app entrypoint
 ```
 
 ```

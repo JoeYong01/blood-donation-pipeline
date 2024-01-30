@@ -1,0 +1,1414 @@
+2024-01-28 08:02:53 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 08:02:54 : load.py : INFO : creating context manager
+2024-01-28 08:02:54 : load.py : INFO : looping through query list
+2024-01-28 08:02:54 : load.py : INFO : returning connection string
+2024-01-28 08:02:54 : main.py : INFO : looping through FILE_URLS
+2024-01-28 08:02:54 : root : INFO : running validate_extension function
+2024-01-28 08:02:54 : root : INFO : returning filepath with extension
+2024-01-28 08:02:54 : extract.py : INFO : running download_file function
+2024-01-28 08:03:01 : root : INFO : running validate_extension function
+2024-01-28 08:03:01 : root : INFO : returning filepath with extension
+2024-01-28 08:03:01 : extract.py : INFO : writing files to directory
+2024-01-28 08:03:01 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 08:03:01 : transform.py : INFO : running get_file_extension
+2024-01-28 08:03:01 : transform.py : INFO : returning file_type
+2024-01-28 08:03:02 : transform.py : INFO : returning pandas dataframe
+2024-01-28 08:03:02 : transform.py : INFO : running validate_col function
+2024-01-28 08:03:02 : transform.py : INFO : returning dataframe
+2024-01-28 08:03:02 : load.py : INFO : running upload_data function
+2024-01-28 08:03:02 : load.py : INFO : uploading data to database
+2024-01-28 08:03:02 : root : INFO : running validate_extension function
+2024-01-28 08:03:02 : root : INFO : returning filepath with extension
+2024-01-28 08:03:02 : extract.py : INFO : running download_file function
+2024-01-28 08:03:04 : root : INFO : running validate_extension function
+2024-01-28 08:03:04 : root : INFO : returning filepath with extension
+2024-01-28 08:03:04 : extract.py : INFO : writing files to directory
+2024-01-28 08:03:04 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 08:03:04 : transform.py : INFO : running get_file_extension
+2024-01-28 08:03:04 : transform.py : INFO : returning file_type
+2024-01-28 08:03:04 : transform.py : INFO : returning pandas dataframe
+2024-01-28 08:03:04 : transform.py : INFO : running validate_col function
+2024-01-28 08:03:04 : transform.py : INFO : returning dataframe
+2024-01-28 08:03:04 : load.py : INFO : running upload_data function
+2024-01-28 08:03:04 : load.py : INFO : uploading data to database
+2024-01-28 08:03:04 : root : INFO : running validate_extension function
+2024-01-28 08:03:04 : root : INFO : returning filepath with extension
+2024-01-28 08:03:04 : extract.py : INFO : running download_file function
+2024-01-28 08:03:06 : root : INFO : running validate_extension function
+2024-01-28 08:03:06 : root : INFO : returning filepath with extension
+2024-01-28 08:03:06 : extract.py : INFO : writing files to directory
+2024-01-28 08:03:06 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 08:03:06 : transform.py : INFO : running get_file_extension
+2024-01-28 08:03:06 : transform.py : INFO : returning file_type
+2024-01-28 08:03:06 : transform.py : INFO : returning pandas dataframe
+2024-01-28 08:03:06 : transform.py : INFO : running validate_col function
+2024-01-28 08:03:06 : transform.py : INFO : returning dataframe
+2024-01-28 08:03:06 : load.py : INFO : running upload_data function
+2024-01-28 08:03:06 : load.py : INFO : uploading data to database
+2024-01-28 08:03:06 : root : INFO : running validate_extension function
+2024-01-28 08:03:06 : root : INFO : returning filepath with extension
+2024-01-28 08:03:06 : extract.py : INFO : running download_file function
+2024-01-28 08:03:07 : root : INFO : running validate_extension function
+2024-01-28 08:03:07 : root : INFO : returning filepath with extension
+2024-01-28 08:03:07 : extract.py : INFO : writing files to directory
+2024-01-28 08:03:07 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 08:03:07 : transform.py : INFO : running get_file_extension
+2024-01-28 08:03:07 : transform.py : INFO : returning file_type
+2024-01-28 08:03:07 : transform.py : INFO : returning pandas dataframe
+2024-01-28 08:03:07 : transform.py : INFO : running validate_col function
+2024-01-28 08:03:07 : transform.py : INFO : returning dataframe
+2024-01-28 08:03:07 : load.py : INFO : running upload_data function
+2024-01-28 08:03:07 : load.py : INFO : uploading data to database
+2024-01-28 08:03:07 : root : INFO : running validate_extension function
+2024-01-28 08:03:07 : root : INFO : returning filepath with extension
+2024-01-28 08:03:07 : extract.py : INFO : running download_file function
+2024-01-28 08:03:12 : root : INFO : running validate_extension function
+2024-01-28 08:03:12 : root : INFO : returning filepath with extension
+2024-01-28 08:03:12 : extract.py : INFO : writing files to directory
+2024-01-28 08:03:12 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 08:03:12 : transform.py : INFO : running get_file_extension
+2024-01-28 08:03:12 : transform.py : INFO : returning file_type
+2024-01-28 08:03:17 : transform.py : INFO : returning pandas dataframe
+2024-01-28 08:03:17 : transform.py : INFO : running validate_col function
+2024-01-28 08:03:17 : transform.py : INFO : returning dataframe
+2024-01-28 08:03:17 : load.py : INFO : running upload_data function
+2024-01-28 08:03:17 : load.py : INFO : uploading data to database
+2024-01-28 08:03:17 : notification.py : INFO : running send_telegram_message func
+2024-01-28 08:03:19 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+2024-01-28 08:03:19 : root : INFO : message has been sent
+2024-01-28 09:33:57 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 09:33:57 : load.py : INFO : creating context manager
+2024-01-28 09:33:57 : load.py : INFO : looping through query list
+2024-01-28 09:33:57 : load.py : INFO : returning connection string
+2024-01-28 09:33:57 : main.py : INFO : looping through FILE_URLS
+2024-01-28 09:33:57 : root : INFO : running validate_extension function
+2024-01-28 09:33:57 : root : INFO : returning filepath with extension
+2024-01-28 09:33:57 : extract.py : INFO : running download_file function
+2024-01-28 09:33:59 : root : INFO : running validate_extension function
+2024-01-28 09:33:59 : root : INFO : returning filepath with extension
+2024-01-28 09:33:59 : extract.py : INFO : writing files to directory
+2024-01-28 09:33:59 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:33:59 : transform.py : INFO : running get_file_extension
+2024-01-28 09:33:59 : transform.py : INFO : returning file_type
+2024-01-28 09:34:00 : transform.py : INFO : running validate_col function
+2024-01-28 09:34:00 : transform.py : INFO : returning dataframe
+2024-01-28 09:34:01 : load.py : INFO : running upload_data function
+2024-01-28 09:34:01 : load.py : INFO : uploading data to database
+2024-01-28 09:34:06 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 09:34:06 : load.py : INFO : creating context manager
+2024-01-28 09:34:06 : load.py : INFO : looping through query list
+2024-01-28 09:34:06 : load.py : INFO : returning connection string
+2024-01-28 09:34:06 : main.py : INFO : looping through FILE_URLS
+2024-01-28 09:34:06 : root : INFO : running validate_extension function
+2024-01-28 09:34:06 : root : INFO : returning filepath with extension
+2024-01-28 09:34:06 : extract.py : INFO : running download_file function
+2024-01-28 09:34:08 : root : INFO : running validate_extension function
+2024-01-28 09:34:08 : root : INFO : returning filepath with extension
+2024-01-28 09:34:08 : extract.py : INFO : writing files to directory
+2024-01-28 09:34:08 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:34:08 : transform.py : INFO : running get_file_extension
+2024-01-28 09:34:08 : transform.py : INFO : returning file_type
+2024-01-28 09:34:09 : transform.py : INFO : running validate_col function
+2024-01-28 09:34:09 : transform.py : INFO : returning dataframe
+2024-01-28 09:34:10 : load.py : INFO : running upload_data function
+2024-01-28 09:34:10 : load.py : INFO : uploading data to database
+2024-01-28 09:34:24 : root : INFO : running validate_extension function
+2024-01-28 09:34:24 : root : INFO : returning filepath with extension
+2024-01-28 09:34:24 : extract.py : INFO : running download_file function
+2024-01-28 09:34:26 : root : INFO : running validate_extension function
+2024-01-28 09:34:26 : root : INFO : returning filepath with extension
+2024-01-28 09:34:26 : extract.py : INFO : writing files to directory
+2024-01-28 09:34:26 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:34:26 : transform.py : INFO : running get_file_extension
+2024-01-28 09:34:26 : transform.py : INFO : returning file_type
+2024-01-28 09:34:27 : transform.py : INFO : running validate_col function
+2024-01-28 09:34:27 : transform.py : INFO : returning dataframe
+2024-01-28 09:34:27 : load.py : INFO : running upload_data function
+2024-01-28 09:34:27 : load.py : INFO : uploading data to database
+2024-01-28 09:34:33 : root : INFO : running validate_extension function
+2024-01-28 09:34:33 : root : INFO : returning filepath with extension
+2024-01-28 09:34:33 : extract.py : INFO : running download_file function
+2024-01-28 09:34:36 : root : INFO : running validate_extension function
+2024-01-28 09:34:36 : root : INFO : returning filepath with extension
+2024-01-28 09:34:36 : extract.py : INFO : writing files to directory
+2024-01-28 09:34:36 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:34:36 : transform.py : INFO : running get_file_extension
+2024-01-28 09:34:36 : transform.py : INFO : returning file_type
+2024-01-28 09:34:36 : transform.py : INFO : running validate_col function
+2024-01-28 09:34:36 : transform.py : INFO : returning dataframe
+2024-01-28 09:34:37 : load.py : INFO : running upload_data function
+2024-01-28 09:34:37 : load.py : INFO : uploading data to database
+2024-01-28 09:34:44 : root : INFO : running validate_extension function
+2024-01-28 09:34:44 : root : INFO : returning filepath with extension
+2024-01-28 09:34:44 : extract.py : INFO : running download_file function
+2024-01-28 09:34:44 : root : INFO : running validate_extension function
+2024-01-28 09:34:44 : root : INFO : returning filepath with extension
+2024-01-28 09:34:44 : extract.py : INFO : writing files to directory
+2024-01-28 09:34:44 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:34:44 : transform.py : INFO : running get_file_extension
+2024-01-28 09:34:44 : transform.py : INFO : returning file_type
+2024-01-28 09:34:45 : transform.py : INFO : running validate_col function
+2024-01-28 09:34:45 : transform.py : INFO : returning dataframe
+2024-01-28 09:34:45 : load.py : INFO : running upload_data function
+2024-01-28 09:34:45 : load.py : INFO : uploading data to database
+2024-01-28 09:34:49 : root : INFO : running validate_extension function
+2024-01-28 09:34:49 : root : INFO : returning filepath with extension
+2024-01-28 09:34:49 : extract.py : INFO : running download_file function
+2024-01-28 09:34:53 : root : INFO : running validate_extension function
+2024-01-28 09:34:53 : root : INFO : returning filepath with extension
+2024-01-28 09:34:53 : extract.py : INFO : writing files to directory
+2024-01-28 09:34:53 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:34:53 : transform.py : INFO : running get_file_extension
+2024-01-28 09:34:53 : transform.py : INFO : returning file_type
+2024-01-28 09:34:57 : transform.py : INFO : running validate_col function
+2024-01-28 09:34:57 : transform.py : INFO : returning dataframe
+2024-01-28 09:34:59 : load.py : INFO : running upload_data function
+2024-01-28 09:34:59 : load.py : INFO : uploading data to database
+2024-01-28 09:37:20 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 09:37:20 : load.py : INFO : creating context manager
+2024-01-28 09:37:20 : load.py : INFO : looping through query list
+2024-01-28 09:37:20 : load.py : INFO : returning connection string
+2024-01-28 09:37:20 : main.py : INFO : looping through FILE_URLS
+2024-01-28 09:37:20 : root : INFO : running validate_extension function
+2024-01-28 09:37:20 : root : INFO : returning filepath with extension
+2024-01-28 09:37:20 : extract.py : INFO : running download_file function
+2024-01-28 09:37:28 : root : INFO : running validate_extension function
+2024-01-28 09:37:28 : root : INFO : returning filepath with extension
+2024-01-28 09:37:28 : extract.py : INFO : writing files to directory
+2024-01-28 09:37:28 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:37:28 : transform.py : INFO : running get_file_extension
+2024-01-28 09:37:28 : transform.py : INFO : returning file_type
+2024-01-28 09:37:29 : transform.py : INFO : running validate_col function
+2024-01-28 09:37:29 : transform.py : INFO : returning dataframe
+2024-01-28 09:37:30 : load.py : INFO : running upload_data function
+2024-01-28 09:37:30 : load.py : INFO : uploading data to database
+2024-01-28 09:37:46 : root : INFO : running validate_extension function
+2024-01-28 09:37:46 : root : INFO : returning filepath with extension
+2024-01-28 09:37:46 : extract.py : INFO : running download_file function
+2024-01-28 09:37:47 : root : INFO : running validate_extension function
+2024-01-28 09:37:47 : root : INFO : returning filepath with extension
+2024-01-28 09:37:47 : extract.py : INFO : writing files to directory
+2024-01-28 09:37:47 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:37:47 : transform.py : INFO : running get_file_extension
+2024-01-28 09:37:47 : transform.py : INFO : returning file_type
+2024-01-28 09:37:47 : transform.py : INFO : running validate_col function
+2024-01-28 09:37:47 : transform.py : INFO : returning dataframe
+2024-01-28 09:37:48 : load.py : INFO : running upload_data function
+2024-01-28 09:37:48 : load.py : INFO : uploading data to database
+2024-01-28 09:37:53 : root : INFO : running validate_extension function
+2024-01-28 09:37:53 : root : INFO : returning filepath with extension
+2024-01-28 09:37:53 : extract.py : INFO : running download_file function
+2024-01-28 09:37:54 : root : INFO : running validate_extension function
+2024-01-28 09:37:54 : root : INFO : returning filepath with extension
+2024-01-28 09:37:54 : extract.py : INFO : writing files to directory
+2024-01-28 09:37:54 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:37:54 : transform.py : INFO : running get_file_extension
+2024-01-28 09:37:54 : transform.py : INFO : returning file_type
+2024-01-28 09:37:55 : transform.py : INFO : running validate_col function
+2024-01-28 09:37:55 : transform.py : INFO : returning dataframe
+2024-01-28 09:37:55 : load.py : INFO : running upload_data function
+2024-01-28 09:37:55 : load.py : INFO : uploading data to database
+2024-01-28 09:38:02 : root : INFO : running validate_extension function
+2024-01-28 09:38:02 : root : INFO : returning filepath with extension
+2024-01-28 09:38:02 : extract.py : INFO : running download_file function
+2024-01-28 09:38:03 : root : INFO : running validate_extension function
+2024-01-28 09:38:03 : root : INFO : returning filepath with extension
+2024-01-28 09:38:03 : extract.py : INFO : writing files to directory
+2024-01-28 09:38:03 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:38:03 : transform.py : INFO : running get_file_extension
+2024-01-28 09:38:03 : transform.py : INFO : returning file_type
+2024-01-28 09:38:04 : transform.py : INFO : running validate_col function
+2024-01-28 09:38:04 : transform.py : INFO : returning dataframe
+2024-01-28 09:38:04 : load.py : INFO : running upload_data function
+2024-01-28 09:38:04 : load.py : INFO : uploading data to database
+2024-01-28 09:38:08 : root : INFO : running validate_extension function
+2024-01-28 09:38:08 : root : INFO : returning filepath with extension
+2024-01-28 09:38:08 : extract.py : INFO : running download_file function
+2024-01-28 09:38:11 : root : INFO : running validate_extension function
+2024-01-28 09:38:11 : root : INFO : returning filepath with extension
+2024-01-28 09:38:11 : extract.py : INFO : writing files to directory
+2024-01-28 09:38:11 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:38:11 : transform.py : INFO : running get_file_extension
+2024-01-28 09:38:11 : transform.py : INFO : returning file_type
+2024-01-28 09:38:15 : transform.py : INFO : running validate_col function
+2024-01-28 09:38:15 : transform.py : INFO : returning dataframe
+2024-01-28 09:38:17 : load.py : INFO : running upload_data function
+2024-01-28 09:38:17 : load.py : INFO : uploading data to database
+2024-01-28 09:39:13 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 09:39:13 : load.py : INFO : creating context manager
+2024-01-28 09:39:13 : load.py : INFO : looping through query list
+2024-01-28 09:39:14 : load.py : INFO : returning connection string
+2024-01-28 09:39:14 : main.py : INFO : looping through FILE_URLS
+2024-01-28 09:39:14 : root : INFO : running validate_extension function
+2024-01-28 09:39:14 : root : INFO : returning filepath with extension
+2024-01-28 09:39:14 : extract.py : INFO : running download_file function
+2024-01-28 09:39:16 : root : INFO : running validate_extension function
+2024-01-28 09:39:16 : root : INFO : returning filepath with extension
+2024-01-28 09:39:16 : extract.py : INFO : writing files to directory
+2024-01-28 09:39:16 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:39:16 : transform.py : INFO : running get_file_extension
+2024-01-28 09:39:16 : transform.py : INFO : returning file_type
+2024-01-28 09:39:17 : transform.py : INFO : running validate_col function
+2024-01-28 09:39:17 : transform.py : INFO : returning dataframe
+2024-01-28 09:39:17 : load.py : INFO : running upload_data function
+2024-01-28 09:39:17 : load.py : INFO : uploading data to database
+2024-01-28 09:39:26 : root : INFO : running validate_extension function
+2024-01-28 09:39:26 : root : INFO : returning filepath with extension
+2024-01-28 09:39:26 : extract.py : INFO : running download_file function
+2024-01-28 09:39:27 : root : INFO : running validate_extension function
+2024-01-28 09:39:27 : root : INFO : returning filepath with extension
+2024-01-28 09:39:27 : extract.py : INFO : writing files to directory
+2024-01-28 09:39:27 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:39:27 : transform.py : INFO : running get_file_extension
+2024-01-28 09:39:27 : transform.py : INFO : returning file_type
+2024-01-28 09:39:27 : transform.py : INFO : running validate_col function
+2024-01-28 09:39:27 : transform.py : INFO : returning dataframe
+2024-01-28 09:39:27 : load.py : INFO : running upload_data function
+2024-01-28 09:39:27 : load.py : INFO : uploading data to database
+2024-01-28 09:39:33 : root : INFO : running validate_extension function
+2024-01-28 09:39:33 : root : INFO : returning filepath with extension
+2024-01-28 09:39:33 : extract.py : INFO : running download_file function
+2024-01-28 09:39:34 : root : INFO : running validate_extension function
+2024-01-28 09:39:34 : root : INFO : returning filepath with extension
+2024-01-28 09:39:34 : extract.py : INFO : writing files to directory
+2024-01-28 09:39:34 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:39:34 : transform.py : INFO : running get_file_extension
+2024-01-28 09:39:34 : transform.py : INFO : returning file_type
+2024-01-28 09:39:35 : transform.py : INFO : running validate_col function
+2024-01-28 09:39:35 : transform.py : INFO : returning dataframe
+2024-01-28 09:39:35 : load.py : INFO : running upload_data function
+2024-01-28 09:39:35 : load.py : INFO : uploading data to database
+2024-01-28 09:39:43 : root : INFO : running validate_extension function
+2024-01-28 09:39:43 : root : INFO : returning filepath with extension
+2024-01-28 09:39:43 : extract.py : INFO : running download_file function
+2024-01-28 09:39:43 : root : INFO : running validate_extension function
+2024-01-28 09:39:43 : root : INFO : returning filepath with extension
+2024-01-28 09:39:43 : extract.py : INFO : writing files to directory
+2024-01-28 09:39:43 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:39:43 : transform.py : INFO : running get_file_extension
+2024-01-28 09:39:43 : transform.py : INFO : returning file_type
+2024-01-28 09:39:44 : transform.py : INFO : running validate_col function
+2024-01-28 09:39:44 : transform.py : INFO : returning dataframe
+2024-01-28 09:39:44 : load.py : INFO : running upload_data function
+2024-01-28 09:39:44 : load.py : INFO : uploading data to database
+2024-01-28 09:39:48 : root : INFO : running validate_extension function
+2024-01-28 09:39:48 : root : INFO : returning filepath with extension
+2024-01-28 09:39:48 : extract.py : INFO : running download_file function
+2024-01-28 09:40:03 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 09:40:03 : load.py : INFO : creating context manager
+2024-01-28 09:40:03 : load.py : INFO : looping through query list
+2024-01-28 09:40:03 : load.py : INFO : returning connection string
+2024-01-28 09:40:03 : main.py : INFO : looping through FILE_URLS
+2024-01-28 09:40:03 : root : INFO : running validate_extension function
+2024-01-28 09:40:03 : root : INFO : returning filepath with extension
+2024-01-28 09:40:03 : extract.py : INFO : running download_file function
+2024-01-28 09:40:04 : root : INFO : running validate_extension function
+2024-01-28 09:40:04 : root : INFO : returning filepath with extension
+2024-01-28 09:40:04 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:04 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:04 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:04 : transform.py : INFO : returning file_type
+2024-01-28 09:40:04 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:04 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:04 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:04 : load.py : INFO : running upload_data function
+2024-01-28 09:40:04 : load.py : INFO : uploading data to database
+2024-01-28 09:40:04 : root : INFO : running validate_extension function
+2024-01-28 09:40:04 : root : INFO : returning filepath with extension
+2024-01-28 09:40:04 : extract.py : INFO : running download_file function
+2024-01-28 09:40:05 : root : INFO : running validate_extension function
+2024-01-28 09:40:05 : root : INFO : returning filepath with extension
+2024-01-28 09:40:05 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:05 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:05 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:05 : transform.py : INFO : returning file_type
+2024-01-28 09:40:05 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:05 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:05 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:05 : load.py : INFO : running upload_data function
+2024-01-28 09:40:05 : load.py : INFO : uploading data to database
+2024-01-28 09:40:05 : root : INFO : running validate_extension function
+2024-01-28 09:40:05 : root : INFO : returning filepath with extension
+2024-01-28 09:40:05 : extract.py : INFO : running download_file function
+2024-01-28 09:40:06 : root : INFO : running validate_extension function
+2024-01-28 09:40:06 : root : INFO : returning filepath with extension
+2024-01-28 09:40:06 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:06 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:06 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:06 : transform.py : INFO : returning file_type
+2024-01-28 09:40:06 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:06 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:06 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:06 : load.py : INFO : running upload_data function
+2024-01-28 09:40:06 : load.py : INFO : uploading data to database
+2024-01-28 09:40:06 : root : INFO : running validate_extension function
+2024-01-28 09:40:06 : root : INFO : returning filepath with extension
+2024-01-28 09:40:06 : extract.py : INFO : running download_file function
+2024-01-28 09:40:07 : root : INFO : running validate_extension function
+2024-01-28 09:40:07 : root : INFO : returning filepath with extension
+2024-01-28 09:40:07 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:07 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:07 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:07 : transform.py : INFO : returning file_type
+2024-01-28 09:40:07 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:07 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:07 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:07 : load.py : INFO : running upload_data function
+2024-01-28 09:40:07 : load.py : INFO : uploading data to database
+2024-01-28 09:40:07 : root : INFO : running validate_extension function
+2024-01-28 09:40:07 : root : INFO : returning filepath with extension
+2024-01-28 09:40:07 : extract.py : INFO : running download_file function
+2024-01-28 09:40:09 : root : INFO : running validate_extension function
+2024-01-28 09:40:09 : root : INFO : returning filepath with extension
+2024-01-28 09:40:09 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:09 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:09 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:09 : transform.py : INFO : returning file_type
+2024-01-28 09:40:13 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:13 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:13 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:13 : load.py : INFO : running upload_data function
+2024-01-28 09:40:13 : load.py : INFO : uploading data to database
+2024-01-28 09:40:13 : notification.py : INFO : running send_telegram_message func
+2024-01-28 09:40:15 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+2024-01-28 09:40:15 : root : INFO : message has been sent
+2024-01-28 09:40:36 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 09:40:37 : load.py : INFO : creating context manager
+2024-01-28 09:40:37 : load.py : INFO : looping through query list
+2024-01-28 09:40:37 : load.py : INFO : returning connection string
+2024-01-28 09:40:37 : main.py : INFO : looping through FILE_URLS
+2024-01-28 09:40:37 : root : INFO : running validate_extension function
+2024-01-28 09:40:37 : root : INFO : returning filepath with extension
+2024-01-28 09:40:37 : extract.py : INFO : running download_file function
+2024-01-28 09:40:37 : root : INFO : running validate_extension function
+2024-01-28 09:40:37 : root : INFO : returning filepath with extension
+2024-01-28 09:40:37 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:37 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:37 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:37 : transform.py : INFO : returning file_type
+2024-01-28 09:40:37 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:37 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:37 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:37 : load.py : INFO : running upload_data function
+2024-01-28 09:40:37 : load.py : INFO : uploading data to database
+2024-01-28 09:40:37 : root : INFO : running validate_extension function
+2024-01-28 09:40:37 : root : INFO : returning filepath with extension
+2024-01-28 09:40:37 : extract.py : INFO : running download_file function
+2024-01-28 09:40:38 : root : INFO : running validate_extension function
+2024-01-28 09:40:38 : root : INFO : returning filepath with extension
+2024-01-28 09:40:38 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:38 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:38 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:38 : transform.py : INFO : returning file_type
+2024-01-28 09:40:38 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:38 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:38 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:38 : load.py : INFO : running upload_data function
+2024-01-28 09:40:38 : load.py : INFO : uploading data to database
+2024-01-28 09:40:38 : root : INFO : running validate_extension function
+2024-01-28 09:40:38 : root : INFO : returning filepath with extension
+2024-01-28 09:40:38 : extract.py : INFO : running download_file function
+2024-01-28 09:40:40 : root : INFO : running validate_extension function
+2024-01-28 09:40:40 : root : INFO : returning filepath with extension
+2024-01-28 09:40:40 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:40 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:40 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:40 : transform.py : INFO : returning file_type
+2024-01-28 09:40:40 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:40 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:40 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:40 : load.py : INFO : running upload_data function
+2024-01-28 09:40:40 : load.py : INFO : uploading data to database
+2024-01-28 09:40:40 : root : INFO : running validate_extension function
+2024-01-28 09:40:40 : root : INFO : returning filepath with extension
+2024-01-28 09:40:40 : extract.py : INFO : running download_file function
+2024-01-28 09:40:40 : root : INFO : running validate_extension function
+2024-01-28 09:40:40 : root : INFO : returning filepath with extension
+2024-01-28 09:40:40 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:40 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:40 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:40 : transform.py : INFO : returning file_type
+2024-01-28 09:40:40 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:40 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:40 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:40 : load.py : INFO : running upload_data function
+2024-01-28 09:40:40 : load.py : INFO : uploading data to database
+2024-01-28 09:40:40 : root : INFO : running validate_extension function
+2024-01-28 09:40:40 : root : INFO : returning filepath with extension
+2024-01-28 09:40:40 : extract.py : INFO : running download_file function
+2024-01-28 09:40:43 : root : INFO : running validate_extension function
+2024-01-28 09:40:43 : root : INFO : returning filepath with extension
+2024-01-28 09:40:43 : extract.py : INFO : writing files to directory
+2024-01-28 09:40:43 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:40:43 : transform.py : INFO : running get_file_extension
+2024-01-28 09:40:43 : transform.py : INFO : returning file_type
+2024-01-28 09:40:47 : transform.py : INFO : returning pandas dataframe
+2024-01-28 09:40:47 : transform.py : INFO : running validate_col function
+2024-01-28 09:40:47 : transform.py : INFO : returning dataframe
+2024-01-28 09:40:47 : load.py : INFO : running upload_data function
+2024-01-28 09:40:47 : load.py : INFO : uploading data to database
+2024-01-28 09:40:47 : notification.py : INFO : running send_telegram_message func
+2024-01-28 09:40:49 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+2024-01-28 09:40:49 : root : INFO : message has been sent
+2024-01-28 09:46:25 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 09:46:25 : load.py : INFO : creating context manager
+2024-01-28 09:46:25 : load.py : INFO : looping through query list
+2024-01-28 09:46:25 : load.py : INFO : returning connection string
+2024-01-28 09:46:25 : main.py : INFO : looping through FILE_URLS
+2024-01-28 09:46:25 : root : INFO : running validate_extension function
+2024-01-28 09:46:25 : root : INFO : returning filepath with extension
+2024-01-28 09:46:25 : extract.py : INFO : running download_file function
+2024-01-28 09:46:26 : root : INFO : running validate_extension function
+2024-01-28 09:46:26 : root : INFO : returning filepath with extension
+2024-01-28 09:46:26 : extract.py : INFO : writing files to directory
+2024-01-28 09:46:26 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:46:26 : transform.py : INFO : running get_file_extension
+2024-01-28 09:46:26 : transform.py : INFO : returning file_type
+2024-01-28 09:46:26 : transform.py : INFO : running validate_col function
+2024-01-28 09:46:26 : transform.py : INFO : returning dataframe
+2024-01-28 09:46:27 : load.py : INFO : running upload_data function
+2024-01-28 09:46:27 : load.py : INFO : uploading data to database
+2024-01-28 09:46:36 : root : INFO : running validate_extension function
+2024-01-28 09:46:36 : root : INFO : returning filepath with extension
+2024-01-28 09:46:36 : extract.py : INFO : running download_file function
+2024-01-28 09:46:37 : root : INFO : running validate_extension function
+2024-01-28 09:46:37 : root : INFO : returning filepath with extension
+2024-01-28 09:46:37 : extract.py : INFO : writing files to directory
+2024-01-28 09:46:37 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:46:37 : transform.py : INFO : running get_file_extension
+2024-01-28 09:46:37 : transform.py : INFO : returning file_type
+2024-01-28 09:46:38 : transform.py : INFO : running validate_col function
+2024-01-28 09:46:38 : transform.py : INFO : returning dataframe
+2024-01-28 09:46:38 : load.py : INFO : running upload_data function
+2024-01-28 09:46:38 : load.py : INFO : uploading data to database
+2024-01-28 09:46:44 : root : INFO : running validate_extension function
+2024-01-28 09:46:44 : root : INFO : returning filepath with extension
+2024-01-28 09:46:44 : extract.py : INFO : running download_file function
+2024-01-28 09:46:47 : root : INFO : running validate_extension function
+2024-01-28 09:46:47 : root : INFO : returning filepath with extension
+2024-01-28 09:46:47 : extract.py : INFO : writing files to directory
+2024-01-28 09:46:47 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:46:47 : transform.py : INFO : running get_file_extension
+2024-01-28 09:46:47 : transform.py : INFO : returning file_type
+2024-01-28 09:46:48 : transform.py : INFO : running validate_col function
+2024-01-28 09:46:48 : transform.py : INFO : returning dataframe
+2024-01-28 09:46:48 : load.py : INFO : running upload_data function
+2024-01-28 09:46:48 : load.py : INFO : uploading data to database
+2024-01-28 09:46:54 : root : INFO : running validate_extension function
+2024-01-28 09:46:54 : root : INFO : returning filepath with extension
+2024-01-28 09:46:54 : extract.py : INFO : running download_file function
+2024-01-28 09:46:56 : root : INFO : running validate_extension function
+2024-01-28 09:46:56 : root : INFO : returning filepath with extension
+2024-01-28 09:46:56 : extract.py : INFO : writing files to directory
+2024-01-28 09:46:56 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:46:56 : transform.py : INFO : running get_file_extension
+2024-01-28 09:46:56 : transform.py : INFO : returning file_type
+2024-01-28 09:46:56 : transform.py : INFO : running validate_col function
+2024-01-28 09:46:56 : transform.py : INFO : returning dataframe
+2024-01-28 09:46:56 : load.py : INFO : running upload_data function
+2024-01-28 09:46:56 : load.py : INFO : uploading data to database
+2024-01-28 09:47:00 : root : INFO : running validate_extension function
+2024-01-28 09:47:00 : root : INFO : returning filepath with extension
+2024-01-28 09:47:00 : extract.py : INFO : running download_file function
+2024-01-28 09:47:03 : root : INFO : running validate_extension function
+2024-01-28 09:47:03 : root : INFO : returning filepath with extension
+2024-01-28 09:47:03 : extract.py : INFO : writing files to directory
+2024-01-28 09:47:04 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:47:04 : transform.py : INFO : running get_file_extension
+2024-01-28 09:47:04 : transform.py : INFO : returning file_type
+2024-01-28 09:47:07 : transform.py : INFO : running validate_col function
+2024-01-28 09:47:07 : transform.py : INFO : returning dataframe
+2024-01-28 09:47:09 : load.py : INFO : running upload_data function
+2024-01-28 09:47:09 : load.py : INFO : uploading data to database
+2024-01-28 09:48:26 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 09:48:26 : load.py : INFO : creating context manager
+2024-01-28 09:48:26 : load.py : INFO : looping through query list
+2024-01-28 09:48:26 : load.py : INFO : returning connection string
+2024-01-28 09:48:26 : main.py : INFO : looping through FILE_URLS
+2024-01-28 09:48:26 : root : INFO : running validate_extension function
+2024-01-28 09:48:26 : root : INFO : returning filepath with extension
+2024-01-28 09:48:26 : extract.py : INFO : running download_file function
+2024-01-28 09:48:31 : root : INFO : running validate_extension function
+2024-01-28 09:48:31 : root : INFO : returning filepath with extension
+2024-01-28 09:48:31 : extract.py : INFO : writing files to directory
+2024-01-28 09:48:31 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:48:31 : transform.py : INFO : running get_file_extension
+2024-01-28 09:48:31 : transform.py : INFO : returning file_type
+2024-01-28 09:48:32 : transform.py : INFO : running validate_col function
+2024-01-28 09:48:32 : transform.py : INFO : returning dataframe
+2024-01-28 09:48:33 : load.py : INFO : running upload_data function
+2024-01-28 09:48:33 : load.py : INFO : uploading data to database
+2024-01-28 09:48:41 : root : INFO : running validate_extension function
+2024-01-28 09:48:41 : root : INFO : returning filepath with extension
+2024-01-28 09:48:41 : extract.py : INFO : running download_file function
+2024-01-28 09:48:42 : root : INFO : running validate_extension function
+2024-01-28 09:48:42 : root : INFO : returning filepath with extension
+2024-01-28 09:48:42 : extract.py : INFO : writing files to directory
+2024-01-28 09:48:42 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:48:42 : transform.py : INFO : running get_file_extension
+2024-01-28 09:48:42 : transform.py : INFO : returning file_type
+2024-01-28 09:48:42 : transform.py : INFO : running validate_col function
+2024-01-28 09:48:42 : transform.py : INFO : returning dataframe
+2024-01-28 09:48:42 : load.py : INFO : running upload_data function
+2024-01-28 09:48:42 : load.py : INFO : uploading data to database
+2024-01-28 09:48:47 : root : INFO : running validate_extension function
+2024-01-28 09:48:47 : root : INFO : returning filepath with extension
+2024-01-28 09:48:47 : extract.py : INFO : running download_file function
+2024-01-28 09:48:48 : root : INFO : running validate_extension function
+2024-01-28 09:48:48 : root : INFO : returning filepath with extension
+2024-01-28 09:48:48 : extract.py : INFO : writing files to directory
+2024-01-28 09:48:48 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:48:48 : transform.py : INFO : running get_file_extension
+2024-01-28 09:48:48 : transform.py : INFO : returning file_type
+2024-01-28 09:48:48 : transform.py : INFO : running validate_col function
+2024-01-28 09:48:48 : transform.py : INFO : returning dataframe
+2024-01-28 09:48:49 : load.py : INFO : running upload_data function
+2024-01-28 09:48:49 : load.py : INFO : uploading data to database
+2024-01-28 09:48:55 : root : INFO : running validate_extension function
+2024-01-28 09:48:55 : root : INFO : returning filepath with extension
+2024-01-28 09:48:55 : extract.py : INFO : running download_file function
+2024-01-28 09:48:57 : root : INFO : running validate_extension function
+2024-01-28 09:48:57 : root : INFO : returning filepath with extension
+2024-01-28 09:48:57 : extract.py : INFO : writing files to directory
+2024-01-28 09:48:57 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:48:57 : transform.py : INFO : running get_file_extension
+2024-01-28 09:48:57 : transform.py : INFO : returning file_type
+2024-01-28 09:48:57 : transform.py : INFO : running validate_col function
+2024-01-28 09:48:57 : transform.py : INFO : returning dataframe
+2024-01-28 09:48:58 : load.py : INFO : running upload_data function
+2024-01-28 09:48:58 : load.py : INFO : uploading data to database
+2024-01-28 09:49:01 : root : INFO : running validate_extension function
+2024-01-28 09:49:01 : root : INFO : returning filepath with extension
+2024-01-28 09:49:01 : extract.py : INFO : running download_file function
+2024-01-28 09:49:04 : root : INFO : running validate_extension function
+2024-01-28 09:49:04 : root : INFO : returning filepath with extension
+2024-01-28 09:49:04 : extract.py : INFO : writing files to directory
+2024-01-28 09:49:04 : transform.py : INFO : running get_yesterdays_data function
+2024-01-28 09:49:04 : transform.py : INFO : running get_file_extension
+2024-01-28 09:49:04 : transform.py : INFO : returning file_type
+2024-01-28 09:49:08 : transform.py : INFO : running validate_col function
+2024-01-28 09:49:08 : transform.py : INFO : returning dataframe
+2024-01-28 09:49:10 : load.py : INFO : running upload_data function
+2024-01-28 09:49:10 : load.py : INFO : uploading data to database
+2024-01-28 09:51:21 : notification.py : INFO : running send_telegram_message func
+2024-01-28 09:51:24 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+2024-01-28 09:51:24 : root : INFO : message has been sent
+2024-01-28 12:02:38 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 12:02:39 : load.py : INFO : creating context manager
+2024-01-28 12:02:39 : load.py : INFO : looping through query list
+2024-01-28 12:02:39 : load.py : INFO : returning connection string
+2024-01-28 12:02:39 : main.py : INFO : looping through FILE_URLS
+2024-01-28 12:02:39 : root : INFO : running validate_extension function
+2024-01-28 12:02:39 : root : INFO : returning filepath with extension
+2024-01-28 12:02:39 : extract.py : INFO : running download_file function
+2024-01-28 12:02:40 : root : INFO : running validate_extension function
+2024-01-28 12:02:40 : root : INFO : returning filepath with extension
+2024-01-28 12:02:40 : extract.py : INFO : writing files to directory
+2024-01-28 12:02:40 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:02:40 : transform.py : INFO : creating context manager
+2024-01-28 12:02:40 : transform.py : INFO : executing query
+2024-01-28 12:03:04 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 12:03:04 : load.py : INFO : creating context manager
+2024-01-28 12:03:05 : load.py : INFO : looping through query list
+2024-01-28 12:03:05 : load.py : INFO : returning connection string
+2024-01-28 12:03:05 : main.py : INFO : looping through FILE_URLS
+2024-01-28 12:03:05 : root : INFO : running validate_extension function
+2024-01-28 12:03:05 : root : INFO : returning filepath with extension
+2024-01-28 12:03:05 : extract.py : INFO : running download_file function
+2024-01-28 12:03:06 : root : INFO : running validate_extension function
+2024-01-28 12:03:06 : root : INFO : returning filepath with extension
+2024-01-28 12:03:06 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:06 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:06 : transform.py : INFO : creating context manager
+2024-01-28 12:03:06 : transform.py : INFO : executing query
+2024-01-28 12:03:14 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 12:03:14 : load.py : INFO : creating context manager
+2024-01-28 12:03:14 : load.py : INFO : looping through query list
+2024-01-28 12:03:14 : load.py : INFO : returning connection string
+2024-01-28 12:03:14 : main.py : INFO : looping through FILE_URLS
+2024-01-28 12:03:14 : root : INFO : running validate_extension function
+2024-01-28 12:03:14 : root : INFO : returning filepath with extension
+2024-01-28 12:03:14 : extract.py : INFO : running download_file function
+2024-01-28 12:03:17 : root : INFO : running validate_extension function
+2024-01-28 12:03:17 : root : INFO : returning filepath with extension
+2024-01-28 12:03:17 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:17 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:17 : transform.py : INFO : creating context manager
+2024-01-28 12:03:17 : transform.py : INFO : executing query
+2024-01-28 12:03:17 : transform.py : INFO : returning date
+2024-01-28 12:03:17 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:17 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:17 : transform.py : INFO : returning file_type
+2024-01-28 12:03:17 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:03:17 : transform.py : INFO : running validate_col function
+2024-01-28 12:03:17 : transform.py : INFO : returning dataframe
+2024-01-28 12:03:17 : load.py : INFO : running upload_data function
+2024-01-28 12:03:17 : load.py : INFO : uploading data to database
+2024-01-28 12:03:17 : root : INFO : running validate_extension function
+2024-01-28 12:03:17 : root : INFO : returning filepath with extension
+2024-01-28 12:03:17 : extract.py : INFO : running download_file function
+2024-01-28 12:03:20 : root : INFO : running validate_extension function
+2024-01-28 12:03:20 : root : INFO : returning filepath with extension
+2024-01-28 12:03:20 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:20 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:20 : transform.py : INFO : creating context manager
+2024-01-28 12:03:20 : transform.py : INFO : executing query
+2024-01-28 12:03:20 : transform.py : INFO : returning date
+2024-01-28 12:03:20 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:20 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:20 : transform.py : INFO : returning file_type
+2024-01-28 12:03:20 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:03:20 : transform.py : INFO : running validate_col function
+2024-01-28 12:03:20 : transform.py : INFO : returning dataframe
+2024-01-28 12:03:20 : load.py : INFO : running upload_data function
+2024-01-28 12:03:20 : load.py : INFO : uploading data to database
+2024-01-28 12:03:20 : root : INFO : running validate_extension function
+2024-01-28 12:03:20 : root : INFO : returning filepath with extension
+2024-01-28 12:03:20 : extract.py : INFO : running download_file function
+2024-01-28 12:03:21 : root : INFO : running validate_extension function
+2024-01-28 12:03:21 : root : INFO : returning filepath with extension
+2024-01-28 12:03:21 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:21 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:21 : transform.py : INFO : creating context manager
+2024-01-28 12:03:21 : transform.py : INFO : executing query
+2024-01-28 12:03:21 : transform.py : INFO : returning date
+2024-01-28 12:03:21 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:21 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:21 : transform.py : INFO : returning file_type
+2024-01-28 12:03:21 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:03:21 : transform.py : INFO : running validate_col function
+2024-01-28 12:03:21 : transform.py : INFO : returning dataframe
+2024-01-28 12:03:21 : load.py : INFO : running upload_data function
+2024-01-28 12:03:21 : load.py : INFO : uploading data to database
+2024-01-28 12:03:21 : root : INFO : running validate_extension function
+2024-01-28 12:03:21 : root : INFO : returning filepath with extension
+2024-01-28 12:03:21 : extract.py : INFO : running download_file function
+2024-01-28 12:03:22 : root : INFO : running validate_extension function
+2024-01-28 12:03:22 : root : INFO : returning filepath with extension
+2024-01-28 12:03:22 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:22 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:22 : transform.py : INFO : creating context manager
+2024-01-28 12:03:22 : transform.py : INFO : executing query
+2024-01-28 12:03:22 : transform.py : INFO : returning date
+2024-01-28 12:03:22 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:22 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:22 : transform.py : INFO : returning file_type
+2024-01-28 12:03:22 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:03:22 : transform.py : INFO : running validate_col function
+2024-01-28 12:03:22 : transform.py : INFO : returning dataframe
+2024-01-28 12:03:22 : load.py : INFO : running upload_data function
+2024-01-28 12:03:22 : load.py : INFO : uploading data to database
+2024-01-28 12:03:22 : root : INFO : running validate_extension function
+2024-01-28 12:03:22 : root : INFO : returning filepath with extension
+2024-01-28 12:03:22 : extract.py : INFO : running download_file function
+2024-01-28 12:03:25 : root : INFO : running validate_extension function
+2024-01-28 12:03:25 : root : INFO : returning filepath with extension
+2024-01-28 12:03:25 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:25 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:25 : transform.py : INFO : creating context manager
+2024-01-28 12:03:25 : transform.py : INFO : executing query
+2024-01-28 12:03:25 : transform.py : INFO : returning date
+2024-01-28 12:03:25 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:25 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:25 : transform.py : INFO : returning file_type
+2024-01-28 12:03:30 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:03:30 : transform.py : INFO : running validate_col function
+2024-01-28 12:03:30 : transform.py : INFO : returning dataframe
+2024-01-28 12:03:30 : load.py : INFO : running upload_data function
+2024-01-28 12:03:30 : load.py : INFO : uploading data to database
+2024-01-28 12:03:30 : transform.py : INFO : running call_procedure function.
+2024-01-28 12:03:30 : transform.py : INFO : creating context manager
+2024-01-28 12:03:30 : transform.py : INFO : executing procedure
+2024-01-28 12:03:45 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 12:03:45 : load.py : INFO : creating context manager
+2024-01-28 12:03:45 : load.py : INFO : looping through query list
+2024-01-28 12:03:45 : load.py : INFO : returning connection string
+2024-01-28 12:03:45 : main.py : INFO : looping through FILE_URLS
+2024-01-28 12:03:45 : root : INFO : running validate_extension function
+2024-01-28 12:03:45 : root : INFO : returning filepath with extension
+2024-01-28 12:03:45 : extract.py : INFO : running download_file function
+2024-01-28 12:03:50 : root : INFO : running validate_extension function
+2024-01-28 12:03:50 : root : INFO : returning filepath with extension
+2024-01-28 12:03:50 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:50 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:50 : transform.py : INFO : creating context manager
+2024-01-28 12:03:50 : transform.py : INFO : executing query
+2024-01-28 12:03:50 : transform.py : INFO : returning date
+2024-01-28 12:03:50 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:50 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:50 : transform.py : INFO : returning file_type
+2024-01-28 12:03:51 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:03:51 : transform.py : INFO : running validate_col function
+2024-01-28 12:03:51 : transform.py : INFO : returning dataframe
+2024-01-28 12:03:51 : load.py : INFO : running upload_data function
+2024-01-28 12:03:51 : load.py : INFO : uploading data to database
+2024-01-28 12:03:51 : root : INFO : running validate_extension function
+2024-01-28 12:03:51 : root : INFO : returning filepath with extension
+2024-01-28 12:03:51 : extract.py : INFO : running download_file function
+2024-01-28 12:03:52 : root : INFO : running validate_extension function
+2024-01-28 12:03:52 : root : INFO : returning filepath with extension
+2024-01-28 12:03:52 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:52 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:52 : transform.py : INFO : creating context manager
+2024-01-28 12:03:52 : transform.py : INFO : executing query
+2024-01-28 12:03:52 : transform.py : INFO : returning date
+2024-01-28 12:03:52 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:52 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:52 : transform.py : INFO : returning file_type
+2024-01-28 12:03:52 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:03:52 : transform.py : INFO : running validate_col function
+2024-01-28 12:03:52 : transform.py : INFO : returning dataframe
+2024-01-28 12:03:52 : load.py : INFO : running upload_data function
+2024-01-28 12:03:52 : load.py : INFO : uploading data to database
+2024-01-28 12:03:52 : root : INFO : running validate_extension function
+2024-01-28 12:03:52 : root : INFO : returning filepath with extension
+2024-01-28 12:03:52 : extract.py : INFO : running download_file function
+2024-01-28 12:03:53 : root : INFO : running validate_extension function
+2024-01-28 12:03:53 : root : INFO : returning filepath with extension
+2024-01-28 12:03:53 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:53 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:53 : transform.py : INFO : creating context manager
+2024-01-28 12:03:53 : transform.py : INFO : executing query
+2024-01-28 12:03:53 : transform.py : INFO : returning date
+2024-01-28 12:03:53 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:53 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:53 : transform.py : INFO : returning file_type
+2024-01-28 12:03:53 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:03:53 : transform.py : INFO : running validate_col function
+2024-01-28 12:03:53 : transform.py : INFO : returning dataframe
+2024-01-28 12:03:53 : load.py : INFO : running upload_data function
+2024-01-28 12:03:53 : load.py : INFO : uploading data to database
+2024-01-28 12:03:53 : root : INFO : running validate_extension function
+2024-01-28 12:03:53 : root : INFO : returning filepath with extension
+2024-01-28 12:03:53 : extract.py : INFO : running download_file function
+2024-01-28 12:03:54 : root : INFO : running validate_extension function
+2024-01-28 12:03:54 : root : INFO : returning filepath with extension
+2024-01-28 12:03:54 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:54 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:54 : transform.py : INFO : creating context manager
+2024-01-28 12:03:54 : transform.py : INFO : executing query
+2024-01-28 12:03:54 : transform.py : INFO : returning date
+2024-01-28 12:03:54 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:54 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:54 : transform.py : INFO : returning file_type
+2024-01-28 12:03:54 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:03:54 : transform.py : INFO : running validate_col function
+2024-01-28 12:03:54 : transform.py : INFO : returning dataframe
+2024-01-28 12:03:54 : load.py : INFO : running upload_data function
+2024-01-28 12:03:54 : load.py : INFO : uploading data to database
+2024-01-28 12:03:54 : root : INFO : running validate_extension function
+2024-01-28 12:03:54 : root : INFO : returning filepath with extension
+2024-01-28 12:03:54 : extract.py : INFO : running download_file function
+2024-01-28 12:03:56 : root : INFO : running validate_extension function
+2024-01-28 12:03:56 : root : INFO : returning filepath with extension
+2024-01-28 12:03:56 : extract.py : INFO : writing files to directory
+2024-01-28 12:03:56 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:03:56 : transform.py : INFO : creating context manager
+2024-01-28 12:03:56 : transform.py : INFO : executing query
+2024-01-28 12:03:56 : transform.py : INFO : returning date
+2024-01-28 12:03:56 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:03:56 : transform.py : INFO : running get_file_extension
+2024-01-28 12:03:56 : transform.py : INFO : returning file_type
+2024-01-28 12:04:01 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:04:01 : transform.py : INFO : running validate_col function
+2024-01-28 12:04:01 : transform.py : INFO : returning dataframe
+2024-01-28 12:04:01 : load.py : INFO : running upload_data function
+2024-01-28 12:04:01 : load.py : INFO : uploading data to database
+2024-01-28 12:04:01 : transform.py : INFO : running call_procedure function.
+2024-01-28 12:04:01 : transform.py : INFO : creating context manager
+2024-01-28 12:04:01 : transform.py : INFO : executing procedure
+2024-01-28 12:06:19 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 12:06:19 : load.py : INFO : creating context manager
+2024-01-28 12:06:19 : load.py : INFO : looping through query list
+2024-01-28 12:06:19 : load.py : INFO : returning connection string
+2024-01-28 12:06:19 : main.py : INFO : looping through FILE_URLS
+2024-01-28 12:06:19 : root : INFO : running validate_extension function
+2024-01-28 12:06:19 : root : INFO : returning filepath with extension
+2024-01-28 12:06:19 : extract.py : INFO : running download_file function
+2024-01-28 12:06:19 : root : INFO : running validate_extension function
+2024-01-28 12:06:19 : root : INFO : returning filepath with extension
+2024-01-28 12:06:19 : extract.py : INFO : writing files to directory
+2024-01-28 12:06:20 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:06:20 : transform.py : INFO : creating context manager
+2024-01-28 12:06:20 : transform.py : INFO : executing query
+2024-01-28 12:06:20 : transform.py : INFO : returning date
+2024-01-28 12:06:20 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:06:20 : transform.py : INFO : running get_file_extension
+2024-01-28 12:06:20 : transform.py : INFO : returning file_type
+2024-01-28 12:06:20 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:06:20 : transform.py : INFO : running validate_col function
+2024-01-28 12:06:20 : transform.py : INFO : returning dataframe
+2024-01-28 12:06:20 : load.py : INFO : running upload_data function
+2024-01-28 12:06:20 : load.py : INFO : uploading data to database
+2024-01-28 12:06:20 : root : INFO : running validate_extension function
+2024-01-28 12:06:20 : root : INFO : returning filepath with extension
+2024-01-28 12:06:20 : extract.py : INFO : running download_file function
+2024-01-28 12:06:22 : root : INFO : running validate_extension function
+2024-01-28 12:06:22 : root : INFO : returning filepath with extension
+2024-01-28 12:06:22 : extract.py : INFO : writing files to directory
+2024-01-28 12:06:22 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:06:22 : transform.py : INFO : creating context manager
+2024-01-28 12:06:22 : transform.py : INFO : executing query
+2024-01-28 12:06:22 : transform.py : INFO : returning date
+2024-01-28 12:06:22 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:06:22 : transform.py : INFO : running get_file_extension
+2024-01-28 12:06:22 : transform.py : INFO : returning file_type
+2024-01-28 12:06:23 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:06:23 : transform.py : INFO : running validate_col function
+2024-01-28 12:06:23 : transform.py : INFO : returning dataframe
+2024-01-28 12:06:23 : load.py : INFO : running upload_data function
+2024-01-28 12:06:23 : load.py : INFO : uploading data to database
+2024-01-28 12:06:23 : root : INFO : running validate_extension function
+2024-01-28 12:06:23 : root : INFO : returning filepath with extension
+2024-01-28 12:06:23 : extract.py : INFO : running download_file function
+2024-01-28 12:06:23 : root : INFO : running validate_extension function
+2024-01-28 12:06:23 : root : INFO : returning filepath with extension
+2024-01-28 12:06:23 : extract.py : INFO : writing files to directory
+2024-01-28 12:06:23 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:06:23 : transform.py : INFO : creating context manager
+2024-01-28 12:06:23 : transform.py : INFO : executing query
+2024-01-28 12:06:23 : transform.py : INFO : returning date
+2024-01-28 12:06:23 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:06:23 : transform.py : INFO : running get_file_extension
+2024-01-28 12:06:23 : transform.py : INFO : returning file_type
+2024-01-28 12:06:23 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:06:23 : transform.py : INFO : running validate_col function
+2024-01-28 12:06:23 : transform.py : INFO : returning dataframe
+2024-01-28 12:06:23 : load.py : INFO : running upload_data function
+2024-01-28 12:06:23 : load.py : INFO : uploading data to database
+2024-01-28 12:06:23 : root : INFO : running validate_extension function
+2024-01-28 12:06:23 : root : INFO : returning filepath with extension
+2024-01-28 12:06:23 : extract.py : INFO : running download_file function
+2024-01-28 12:06:24 : root : INFO : running validate_extension function
+2024-01-28 12:06:24 : root : INFO : returning filepath with extension
+2024-01-28 12:06:24 : extract.py : INFO : writing files to directory
+2024-01-28 12:06:24 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:06:24 : transform.py : INFO : creating context manager
+2024-01-28 12:06:24 : transform.py : INFO : executing query
+2024-01-28 12:06:24 : transform.py : INFO : returning date
+2024-01-28 12:06:24 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:06:24 : transform.py : INFO : running get_file_extension
+2024-01-28 12:06:24 : transform.py : INFO : returning file_type
+2024-01-28 12:06:24 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:06:24 : transform.py : INFO : running validate_col function
+2024-01-28 12:06:24 : transform.py : INFO : returning dataframe
+2024-01-28 12:06:24 : load.py : INFO : running upload_data function
+2024-01-28 12:06:24 : load.py : INFO : uploading data to database
+2024-01-28 12:06:24 : root : INFO : running validate_extension function
+2024-01-28 12:06:24 : root : INFO : returning filepath with extension
+2024-01-28 12:06:24 : extract.py : INFO : running download_file function
+2024-01-28 12:06:27 : root : INFO : running validate_extension function
+2024-01-28 12:06:27 : root : INFO : returning filepath with extension
+2024-01-28 12:06:27 : extract.py : INFO : writing files to directory
+2024-01-28 12:06:27 : transform.py : INFO : running get_date_from_db function
+2024-01-28 12:06:27 : transform.py : INFO : creating context manager
+2024-01-28 12:06:27 : transform.py : INFO : executing query
+2024-01-28 12:06:27 : transform.py : INFO : returning date
+2024-01-28 12:06:27 : transform.py : INFO : running get_latest_data function
+2024-01-28 12:06:27 : transform.py : INFO : running get_file_extension
+2024-01-28 12:06:27 : transform.py : INFO : returning file_type
+2024-01-28 12:06:32 : transform.py : INFO : returning pandas dataframe
+2024-01-28 12:06:32 : transform.py : INFO : running validate_col function
+2024-01-28 12:06:32 : transform.py : INFO : returning dataframe
+2024-01-28 12:06:32 : load.py : INFO : running upload_data function
+2024-01-28 12:06:32 : load.py : INFO : uploading data to database
+2024-01-28 12:06:32 : transform.py : INFO : running call_procedure function.
+2024-01-28 12:06:32 : transform.py : INFO : creating context manager
+2024-01-28 12:06:32 : transform.py : INFO : executing procedure
+2024-01-28 12:06:33 : transform.py : INFO : running call_procedure function.
+2024-01-28 12:06:33 : transform.py : INFO : creating context manager
+2024-01-28 12:06:33 : transform.py : INFO : executing procedure
+2024-01-28 12:12:38 : notification.py : INFO : running send_telegram_message func
+2024-01-28 12:12:39 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+2024-01-28 12:12:39 : root : INFO : message has been sent
+2024-01-28 13:11:23 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 13:11:23 : load.py : INFO : creating context manager
+2024-01-28 13:11:23 : load.py : INFO : looping through query list
+2024-01-28 13:11:23 : load.py : INFO : returning connection string
+2024-01-28 13:11:23 : main.py : INFO : looping through FILE_URLS
+2024-01-28 13:11:23 : root : INFO : running validate_extension function
+2024-01-28 13:11:23 : root : INFO : returning filepath with extension
+2024-01-28 13:11:23 : extract.py : INFO : running download_file function
+2024-01-28 13:11:25 : root : INFO : running validate_extension function
+2024-01-28 13:11:25 : root : INFO : returning filepath with extension
+2024-01-28 13:11:25 : extract.py : INFO : writing files to directory
+2024-01-28 13:11:25 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:11:25 : transform.py : INFO : creating context manager
+2024-01-28 13:11:25 : transform.py : INFO : executing query
+2024-01-28 13:11:25 : transform.py : INFO : returning date
+2024-01-28 13:11:25 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:11:25 : transform.py : INFO : running get_file_extension
+2024-01-28 13:11:25 : transform.py : INFO : returning file_type
+2024-01-28 13:11:25 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:11:25 : transform.py : INFO : running validate_col function
+2024-01-28 13:11:25 : transform.py : INFO : returning dataframe
+2024-01-28 13:11:25 : load.py : INFO : running upload_data function
+2024-01-28 13:11:25 : load.py : INFO : uploading data to database
+2024-01-28 13:11:25 : root : INFO : running validate_extension function
+2024-01-28 13:11:25 : root : INFO : returning filepath with extension
+2024-01-28 13:11:25 : extract.py : INFO : running download_file function
+2024-01-28 13:11:27 : root : INFO : running validate_extension function
+2024-01-28 13:11:27 : root : INFO : returning filepath with extension
+2024-01-28 13:11:27 : extract.py : INFO : writing files to directory
+2024-01-28 13:11:27 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:11:27 : transform.py : INFO : creating context manager
+2024-01-28 13:11:27 : transform.py : INFO : executing query
+2024-01-28 13:11:27 : transform.py : INFO : returning date
+2024-01-28 13:11:27 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:11:27 : transform.py : INFO : running get_file_extension
+2024-01-28 13:11:27 : transform.py : INFO : returning file_type
+2024-01-28 13:11:27 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:11:27 : transform.py : INFO : running validate_col function
+2024-01-28 13:11:27 : transform.py : INFO : returning dataframe
+2024-01-28 13:11:27 : load.py : INFO : running upload_data function
+2024-01-28 13:11:27 : load.py : INFO : uploading data to database
+2024-01-28 13:11:27 : root : INFO : running validate_extension function
+2024-01-28 13:11:27 : root : INFO : returning filepath with extension
+2024-01-28 13:11:27 : extract.py : INFO : running download_file function
+2024-01-28 13:11:28 : root : INFO : running validate_extension function
+2024-01-28 13:11:28 : root : INFO : returning filepath with extension
+2024-01-28 13:11:28 : extract.py : INFO : writing files to directory
+2024-01-28 13:11:28 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:11:28 : transform.py : INFO : creating context manager
+2024-01-28 13:11:28 : transform.py : INFO : executing query
+2024-01-28 13:11:28 : transform.py : INFO : returning date
+2024-01-28 13:11:28 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:11:28 : transform.py : INFO : running get_file_extension
+2024-01-28 13:11:28 : transform.py : INFO : returning file_type
+2024-01-28 13:11:28 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:11:28 : transform.py : INFO : running validate_col function
+2024-01-28 13:11:28 : transform.py : INFO : returning dataframe
+2024-01-28 13:11:28 : load.py : INFO : running upload_data function
+2024-01-28 13:11:28 : load.py : INFO : uploading data to database
+2024-01-28 13:11:28 : root : INFO : running validate_extension function
+2024-01-28 13:11:28 : root : INFO : returning filepath with extension
+2024-01-28 13:11:28 : extract.py : INFO : running download_file function
+2024-01-28 13:11:29 : root : INFO : running validate_extension function
+2024-01-28 13:11:29 : root : INFO : returning filepath with extension
+2024-01-28 13:11:29 : extract.py : INFO : writing files to directory
+2024-01-28 13:11:29 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:11:29 : transform.py : INFO : creating context manager
+2024-01-28 13:11:29 : transform.py : INFO : executing query
+2024-01-28 13:11:29 : transform.py : INFO : returning date
+2024-01-28 13:11:29 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:11:29 : transform.py : INFO : running get_file_extension
+2024-01-28 13:11:29 : transform.py : INFO : returning file_type
+2024-01-28 13:11:29 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:11:29 : transform.py : INFO : running validate_col function
+2024-01-28 13:11:29 : transform.py : INFO : returning dataframe
+2024-01-28 13:11:29 : load.py : INFO : running upload_data function
+2024-01-28 13:11:29 : load.py : INFO : uploading data to database
+2024-01-28 13:11:29 : root : INFO : running validate_extension function
+2024-01-28 13:11:29 : root : INFO : returning filepath with extension
+2024-01-28 13:11:29 : extract.py : INFO : running download_file function
+2024-01-28 13:11:32 : root : INFO : running validate_extension function
+2024-01-28 13:11:32 : root : INFO : returning filepath with extension
+2024-01-28 13:11:32 : extract.py : INFO : writing files to directory
+2024-01-28 13:11:32 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:11:32 : transform.py : INFO : creating context manager
+2024-01-28 13:11:32 : transform.py : INFO : executing query
+2024-01-28 13:11:32 : transform.py : INFO : returning date
+2024-01-28 13:11:32 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:11:32 : transform.py : INFO : running get_file_extension
+2024-01-28 13:11:32 : transform.py : INFO : returning file_type
+2024-01-28 13:11:36 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:11:37 : transform.py : INFO : running validate_col function
+2024-01-28 13:11:37 : transform.py : INFO : returning dataframe
+2024-01-28 13:11:53 : load.py : INFO : running upload_data function
+2024-01-28 13:11:53 : load.py : INFO : uploading data to database
+2024-01-28 13:13:06 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 13:13:06 : load.py : INFO : creating context manager
+2024-01-28 13:13:06 : load.py : INFO : looping through query list
+2024-01-28 13:13:06 : load.py : INFO : returning connection string
+2024-01-28 13:13:06 : main.py : INFO : looping through FILE_URLS
+2024-01-28 13:13:06 : root : INFO : running validate_extension function
+2024-01-28 13:13:06 : root : INFO : returning filepath with extension
+2024-01-28 13:13:06 : extract.py : INFO : running download_file function
+2024-01-28 13:13:08 : root : INFO : running validate_extension function
+2024-01-28 13:13:08 : root : INFO : returning filepath with extension
+2024-01-28 13:13:08 : extract.py : INFO : writing files to directory
+2024-01-28 13:13:08 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:13:08 : transform.py : INFO : creating context manager
+2024-01-28 13:13:08 : transform.py : INFO : executing query
+2024-01-28 13:13:08 : transform.py : INFO : returning date
+2024-01-28 13:13:08 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:13:08 : transform.py : INFO : running get_file_extension
+2024-01-28 13:13:08 : transform.py : INFO : returning file_type
+2024-01-28 13:13:08 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:13:08 : transform.py : INFO : running validate_col function
+2024-01-28 13:13:08 : transform.py : INFO : returning dataframe
+2024-01-28 13:13:08 : load.py : INFO : running upload_data function
+2024-01-28 13:13:08 : load.py : INFO : uploading data to database
+2024-01-28 13:13:08 : root : INFO : running validate_extension function
+2024-01-28 13:13:08 : root : INFO : returning filepath with extension
+2024-01-28 13:13:08 : extract.py : INFO : running download_file function
+2024-01-28 13:13:09 : root : INFO : running validate_extension function
+2024-01-28 13:13:09 : root : INFO : returning filepath with extension
+2024-01-28 13:13:09 : extract.py : INFO : writing files to directory
+2024-01-28 13:13:09 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:13:09 : transform.py : INFO : creating context manager
+2024-01-28 13:13:09 : transform.py : INFO : executing query
+2024-01-28 13:13:09 : transform.py : INFO : returning date
+2024-01-28 13:13:09 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:13:09 : transform.py : INFO : running get_file_extension
+2024-01-28 13:13:09 : transform.py : INFO : returning file_type
+2024-01-28 13:13:09 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:13:09 : transform.py : INFO : running validate_col function
+2024-01-28 13:13:09 : transform.py : INFO : returning dataframe
+2024-01-28 13:13:09 : load.py : INFO : running upload_data function
+2024-01-28 13:13:09 : load.py : INFO : uploading data to database
+2024-01-28 13:13:09 : root : INFO : running validate_extension function
+2024-01-28 13:13:09 : root : INFO : returning filepath with extension
+2024-01-28 13:13:09 : extract.py : INFO : running download_file function
+2024-01-28 13:13:11 : root : INFO : running validate_extension function
+2024-01-28 13:13:11 : root : INFO : returning filepath with extension
+2024-01-28 13:13:11 : extract.py : INFO : writing files to directory
+2024-01-28 13:13:11 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:13:11 : transform.py : INFO : creating context manager
+2024-01-28 13:13:11 : transform.py : INFO : executing query
+2024-01-28 13:13:11 : transform.py : INFO : returning date
+2024-01-28 13:13:11 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:13:11 : transform.py : INFO : running get_file_extension
+2024-01-28 13:13:11 : transform.py : INFO : returning file_type
+2024-01-28 13:13:11 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:13:11 : transform.py : INFO : running validate_col function
+2024-01-28 13:13:11 : transform.py : INFO : returning dataframe
+2024-01-28 13:13:11 : load.py : INFO : running upload_data function
+2024-01-28 13:13:11 : load.py : INFO : uploading data to database
+2024-01-28 13:13:11 : root : INFO : running validate_extension function
+2024-01-28 13:13:11 : root : INFO : returning filepath with extension
+2024-01-28 13:13:11 : extract.py : INFO : running download_file function
+2024-01-28 13:13:11 : root : INFO : running validate_extension function
+2024-01-28 13:13:11 : root : INFO : returning filepath with extension
+2024-01-28 13:13:11 : extract.py : INFO : writing files to directory
+2024-01-28 13:13:11 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:13:11 : transform.py : INFO : creating context manager
+2024-01-28 13:13:11 : transform.py : INFO : executing query
+2024-01-28 13:13:11 : transform.py : INFO : returning date
+2024-01-28 13:13:11 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:13:11 : transform.py : INFO : running get_file_extension
+2024-01-28 13:13:11 : transform.py : INFO : returning file_type
+2024-01-28 13:13:12 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:13:12 : transform.py : INFO : running validate_col function
+2024-01-28 13:13:12 : transform.py : INFO : returning dataframe
+2024-01-28 13:13:12 : load.py : INFO : running upload_data function
+2024-01-28 13:13:12 : load.py : INFO : uploading data to database
+2024-01-28 13:13:12 : root : INFO : running validate_extension function
+2024-01-28 13:13:12 : root : INFO : returning filepath with extension
+2024-01-28 13:13:12 : extract.py : INFO : running download_file function
+2024-01-28 13:13:14 : root : INFO : running validate_extension function
+2024-01-28 13:13:14 : root : INFO : returning filepath with extension
+2024-01-28 13:13:14 : extract.py : INFO : writing files to directory
+2024-01-28 13:13:14 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:13:14 : transform.py : INFO : creating context manager
+2024-01-28 13:13:14 : transform.py : INFO : executing query
+2024-01-28 13:13:14 : transform.py : INFO : returning date
+2024-01-28 13:13:14 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:13:14 : transform.py : INFO : running get_file_extension
+2024-01-28 13:13:14 : transform.py : INFO : returning file_type
+2024-01-28 13:13:18 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:13:18 : transform.py : INFO : running validate_col function
+2024-01-28 13:13:18 : transform.py : INFO : returning dataframe
+2024-01-28 13:13:35 : load.py : INFO : running upload_data function
+2024-01-28 13:13:35 : load.py : INFO : uploading data to database
+2024-01-28 13:15:26 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 13:15:26 : load.py : INFO : creating context manager
+2024-01-28 13:15:26 : load.py : INFO : looping through query list
+2024-01-28 13:15:26 : load.py : INFO : returning connection string
+2024-01-28 13:15:26 : main.py : INFO : looping through FILE_URLS
+2024-01-28 13:15:26 : root : INFO : running validate_extension function
+2024-01-28 13:15:26 : root : INFO : returning filepath with extension
+2024-01-28 13:15:26 : extract.py : INFO : running download_file function
+2024-01-28 13:15:26 : root : INFO : running validate_extension function
+2024-01-28 13:15:26 : root : INFO : returning filepath with extension
+2024-01-28 13:15:26 : extract.py : INFO : writing files to directory
+2024-01-28 13:15:26 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:15:26 : transform.py : INFO : creating context manager
+2024-01-28 13:15:26 : transform.py : INFO : executing query
+2024-01-28 13:15:26 : transform.py : INFO : returning date
+2024-01-28 13:15:26 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:15:26 : transform.py : INFO : running get_file_extension
+2024-01-28 13:15:26 : transform.py : INFO : returning file_type
+2024-01-28 13:15:27 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:15:27 : transform.py : INFO : running validate_col function
+2024-01-28 13:15:27 : transform.py : INFO : returning dataframe
+2024-01-28 13:15:27 : load.py : INFO : running upload_data function
+2024-01-28 13:15:27 : load.py : INFO : uploading data to database
+2024-01-28 13:15:27 : root : INFO : running validate_extension function
+2024-01-28 13:15:27 : root : INFO : returning filepath with extension
+2024-01-28 13:15:27 : extract.py : INFO : running download_file function
+2024-01-28 13:15:29 : root : INFO : running validate_extension function
+2024-01-28 13:15:29 : root : INFO : returning filepath with extension
+2024-01-28 13:15:29 : extract.py : INFO : writing files to directory
+2024-01-28 13:15:29 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:15:29 : transform.py : INFO : creating context manager
+2024-01-28 13:15:29 : transform.py : INFO : executing query
+2024-01-28 13:15:29 : transform.py : INFO : returning date
+2024-01-28 13:15:29 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:15:29 : transform.py : INFO : running get_file_extension
+2024-01-28 13:15:29 : transform.py : INFO : returning file_type
+2024-01-28 13:15:29 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:15:29 : transform.py : INFO : running validate_col function
+2024-01-28 13:15:29 : transform.py : INFO : returning dataframe
+2024-01-28 13:15:29 : load.py : INFO : running upload_data function
+2024-01-28 13:15:29 : load.py : INFO : uploading data to database
+2024-01-28 13:15:29 : root : INFO : running validate_extension function
+2024-01-28 13:15:29 : root : INFO : returning filepath with extension
+2024-01-28 13:15:29 : extract.py : INFO : running download_file function
+2024-01-28 13:15:30 : root : INFO : running validate_extension function
+2024-01-28 13:15:30 : root : INFO : returning filepath with extension
+2024-01-28 13:15:30 : extract.py : INFO : writing files to directory
+2024-01-28 13:15:30 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:15:30 : transform.py : INFO : creating context manager
+2024-01-28 13:15:30 : transform.py : INFO : executing query
+2024-01-28 13:15:30 : transform.py : INFO : returning date
+2024-01-28 13:15:30 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:15:30 : transform.py : INFO : running get_file_extension
+2024-01-28 13:15:30 : transform.py : INFO : returning file_type
+2024-01-28 13:15:30 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:15:30 : transform.py : INFO : running validate_col function
+2024-01-28 13:15:30 : transform.py : INFO : returning dataframe
+2024-01-28 13:15:30 : load.py : INFO : running upload_data function
+2024-01-28 13:15:30 : load.py : INFO : uploading data to database
+2024-01-28 13:15:30 : root : INFO : running validate_extension function
+2024-01-28 13:15:30 : root : INFO : returning filepath with extension
+2024-01-28 13:15:30 : extract.py : INFO : running download_file function
+2024-01-28 13:15:32 : root : INFO : running validate_extension function
+2024-01-28 13:15:32 : root : INFO : returning filepath with extension
+2024-01-28 13:15:32 : extract.py : INFO : writing files to directory
+2024-01-28 13:15:32 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:15:32 : transform.py : INFO : creating context manager
+2024-01-28 13:15:32 : transform.py : INFO : executing query
+2024-01-28 13:15:32 : transform.py : INFO : returning date
+2024-01-28 13:15:32 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:15:32 : transform.py : INFO : running get_file_extension
+2024-01-28 13:15:32 : transform.py : INFO : returning file_type
+2024-01-28 13:15:32 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:15:32 : transform.py : INFO : running validate_col function
+2024-01-28 13:15:32 : transform.py : INFO : returning dataframe
+2024-01-28 13:15:32 : load.py : INFO : running upload_data function
+2024-01-28 13:15:32 : load.py : INFO : uploading data to database
+2024-01-28 13:15:32 : root : INFO : running validate_extension function
+2024-01-28 13:15:32 : root : INFO : returning filepath with extension
+2024-01-28 13:15:32 : extract.py : INFO : running download_file function
+2024-01-28 13:15:35 : root : INFO : running validate_extension function
+2024-01-28 13:15:35 : root : INFO : returning filepath with extension
+2024-01-28 13:15:35 : extract.py : INFO : writing files to directory
+2024-01-28 13:15:35 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:15:35 : transform.py : INFO : creating context manager
+2024-01-28 13:15:35 : transform.py : INFO : executing query
+2024-01-28 13:15:35 : transform.py : INFO : returning date
+2024-01-28 13:15:35 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:15:35 : transform.py : INFO : running get_file_extension
+2024-01-28 13:15:35 : transform.py : INFO : returning file_type
+2024-01-28 13:15:39 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:15:39 : transform.py : INFO : running validate_col function
+2024-01-28 13:15:39 : transform.py : INFO : returning dataframe
+2024-01-28 13:15:56 : load.py : INFO : running upload_data function
+2024-01-28 13:15:56 : load.py : INFO : uploading data to database
+2024-01-28 13:17:03 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 13:17:03 : load.py : INFO : creating context manager
+2024-01-28 13:17:03 : load.py : INFO : looping through query list
+2024-01-28 13:17:03 : load.py : INFO : returning connection string
+2024-01-28 13:17:03 : main.py : INFO : looping through FILE_URLS
+2024-01-28 13:17:03 : root : INFO : running validate_extension function
+2024-01-28 13:17:03 : root : INFO : returning filepath with extension
+2024-01-28 13:17:03 : extract.py : INFO : running download_file function
+2024-01-28 13:17:07 : root : INFO : running validate_extension function
+2024-01-28 13:17:07 : root : INFO : returning filepath with extension
+2024-01-28 13:17:07 : extract.py : INFO : writing files to directory
+2024-01-28 13:17:07 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:17:07 : transform.py : INFO : creating context manager
+2024-01-28 13:17:07 : transform.py : INFO : executing query
+2024-01-28 13:17:07 : transform.py : INFO : returning date
+2024-01-28 13:17:07 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:17:07 : transform.py : INFO : running get_file_extension
+2024-01-28 13:17:07 : transform.py : INFO : returning file_type
+2024-01-28 13:17:07 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:17:07 : transform.py : INFO : running validate_col function
+2024-01-28 13:17:07 : transform.py : INFO : returning dataframe
+2024-01-28 13:17:07 : load.py : INFO : running upload_data function
+2024-01-28 13:17:07 : load.py : INFO : uploading data to database
+2024-01-28 13:17:07 : root : INFO : running validate_extension function
+2024-01-28 13:17:07 : root : INFO : returning filepath with extension
+2024-01-28 13:17:07 : extract.py : INFO : running download_file function
+2024-01-28 13:17:12 : root : INFO : running validate_extension function
+2024-01-28 13:17:12 : root : INFO : returning filepath with extension
+2024-01-28 13:17:12 : extract.py : INFO : writing files to directory
+2024-01-28 13:17:12 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:17:12 : transform.py : INFO : creating context manager
+2024-01-28 13:17:12 : transform.py : INFO : executing query
+2024-01-28 13:17:12 : transform.py : INFO : returning date
+2024-01-28 13:17:12 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:17:12 : transform.py : INFO : running get_file_extension
+2024-01-28 13:17:12 : transform.py : INFO : returning file_type
+2024-01-28 13:17:12 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:17:12 : transform.py : INFO : running validate_col function
+2024-01-28 13:17:12 : transform.py : INFO : returning dataframe
+2024-01-28 13:17:12 : load.py : INFO : running upload_data function
+2024-01-28 13:17:12 : load.py : INFO : uploading data to database
+2024-01-28 13:17:12 : root : INFO : running validate_extension function
+2024-01-28 13:17:12 : root : INFO : returning filepath with extension
+2024-01-28 13:17:12 : extract.py : INFO : running download_file function
+2024-01-28 13:17:13 : root : INFO : running validate_extension function
+2024-01-28 13:17:13 : root : INFO : returning filepath with extension
+2024-01-28 13:17:13 : extract.py : INFO : writing files to directory
+2024-01-28 13:17:13 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:17:13 : transform.py : INFO : creating context manager
+2024-01-28 13:17:13 : transform.py : INFO : executing query
+2024-01-28 13:17:13 : transform.py : INFO : returning date
+2024-01-28 13:17:13 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:17:13 : transform.py : INFO : running get_file_extension
+2024-01-28 13:17:13 : transform.py : INFO : returning file_type
+2024-01-28 13:17:13 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:17:13 : transform.py : INFO : running validate_col function
+2024-01-28 13:17:13 : transform.py : INFO : returning dataframe
+2024-01-28 13:17:13 : load.py : INFO : running upload_data function
+2024-01-28 13:17:13 : load.py : INFO : uploading data to database
+2024-01-28 13:17:13 : root : INFO : running validate_extension function
+2024-01-28 13:17:13 : root : INFO : returning filepath with extension
+2024-01-28 13:17:13 : extract.py : INFO : running download_file function
+2024-01-28 13:17:14 : root : INFO : running validate_extension function
+2024-01-28 13:17:14 : root : INFO : returning filepath with extension
+2024-01-28 13:17:14 : extract.py : INFO : writing files to directory
+2024-01-28 13:17:14 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:17:14 : transform.py : INFO : creating context manager
+2024-01-28 13:17:14 : transform.py : INFO : executing query
+2024-01-28 13:17:14 : transform.py : INFO : returning date
+2024-01-28 13:17:14 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:17:14 : transform.py : INFO : running get_file_extension
+2024-01-28 13:17:14 : transform.py : INFO : returning file_type
+2024-01-28 13:17:14 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:17:14 : transform.py : INFO : running validate_col function
+2024-01-28 13:17:14 : transform.py : INFO : returning dataframe
+2024-01-28 13:17:14 : load.py : INFO : running upload_data function
+2024-01-28 13:17:14 : load.py : INFO : uploading data to database
+2024-01-28 13:17:14 : root : INFO : running validate_extension function
+2024-01-28 13:17:14 : root : INFO : returning filepath with extension
+2024-01-28 13:17:14 : extract.py : INFO : running download_file function
+2024-01-28 13:17:17 : root : INFO : running validate_extension function
+2024-01-28 13:17:17 : root : INFO : returning filepath with extension
+2024-01-28 13:17:17 : extract.py : INFO : writing files to directory
+2024-01-28 13:17:17 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:17:17 : transform.py : INFO : creating context manager
+2024-01-28 13:17:17 : transform.py : INFO : executing query
+2024-01-28 13:17:17 : transform.py : INFO : returning date
+2024-01-28 13:17:17 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:17:17 : transform.py : INFO : running get_file_extension
+2024-01-28 13:17:17 : transform.py : INFO : returning file_type
+2024-01-28 13:17:22 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:17:22 : transform.py : INFO : running validate_col function
+2024-01-28 13:17:22 : transform.py : INFO : returning dataframe
+2024-01-28 13:17:38 : load.py : INFO : running upload_data function
+2024-01-28 13:17:38 : load.py : INFO : uploading data to database
+2024-01-28 13:17:38 : load.py : INFO : running upload_data function
+2024-01-28 13:17:38 : load.py : INFO : uploading data to database
+2024-01-28 13:17:38 : transform.py : INFO : running call_procedure function.
+2024-01-28 13:17:38 : transform.py : INFO : creating context manager
+2024-01-28 13:17:38 : transform.py : INFO : executing procedure
+2024-01-28 13:17:39 : notification.py : INFO : running send_telegram_message func
+2024-01-28 13:17:41 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+2024-01-28 13:17:41 : root : INFO : message has been sent
+2024-01-28 13:18:18 : load.py : INFO : running prepare_tables_and_conn function
+2024-01-28 13:18:18 : load.py : INFO : creating context manager
+2024-01-28 13:18:18 : load.py : INFO : looping through query list
+2024-01-28 13:18:18 : load.py : INFO : returning connection string
+2024-01-28 13:18:18 : main.py : INFO : looping through FILE_URLS
+2024-01-28 13:18:18 : root : INFO : running validate_extension function
+2024-01-28 13:18:18 : root : INFO : returning filepath with extension
+2024-01-28 13:18:18 : extract.py : INFO : running download_file function
+2024-01-28 13:18:19 : root : INFO : running validate_extension function
+2024-01-28 13:18:19 : root : INFO : returning filepath with extension
+2024-01-28 13:18:19 : extract.py : INFO : writing files to directory
+2024-01-28 13:18:19 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:18:19 : transform.py : INFO : creating context manager
+2024-01-28 13:18:19 : transform.py : INFO : executing query
+2024-01-28 13:18:19 : transform.py : INFO : returning date
+2024-01-28 13:18:19 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:18:19 : transform.py : INFO : running get_file_extension
+2024-01-28 13:18:19 : transform.py : INFO : returning file_type
+2024-01-28 13:18:19 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:18:19 : transform.py : INFO : running validate_col function
+2024-01-28 13:18:19 : transform.py : INFO : returning dataframe
+2024-01-28 13:18:19 : load.py : INFO : running upload_data function
+2024-01-28 13:18:19 : load.py : INFO : uploading data to database
+2024-01-28 13:18:19 : root : INFO : running validate_extension function
+2024-01-28 13:18:19 : root : INFO : returning filepath with extension
+2024-01-28 13:18:19 : extract.py : INFO : running download_file function
+2024-01-28 13:18:20 : root : INFO : running validate_extension function
+2024-01-28 13:18:20 : root : INFO : returning filepath with extension
+2024-01-28 13:18:20 : extract.py : INFO : writing files to directory
+2024-01-28 13:18:20 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:18:20 : transform.py : INFO : creating context manager
+2024-01-28 13:18:20 : transform.py : INFO : executing query
+2024-01-28 13:18:20 : transform.py : INFO : returning date
+2024-01-28 13:18:20 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:18:20 : transform.py : INFO : running get_file_extension
+2024-01-28 13:18:20 : transform.py : INFO : returning file_type
+2024-01-28 13:18:20 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:18:20 : transform.py : INFO : running validate_col function
+2024-01-28 13:18:20 : transform.py : INFO : returning dataframe
+2024-01-28 13:18:20 : load.py : INFO : running upload_data function
+2024-01-28 13:18:20 : load.py : INFO : uploading data to database
+2024-01-28 13:18:20 : root : INFO : running validate_extension function
+2024-01-28 13:18:20 : root : INFO : returning filepath with extension
+2024-01-28 13:18:20 : extract.py : INFO : running download_file function
+2024-01-28 13:18:21 : root : INFO : running validate_extension function
+2024-01-28 13:18:21 : root : INFO : returning filepath with extension
+2024-01-28 13:18:21 : extract.py : INFO : writing files to directory
+2024-01-28 13:18:21 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:18:21 : transform.py : INFO : creating context manager
+2024-01-28 13:18:21 : transform.py : INFO : executing query
+2024-01-28 13:18:21 : transform.py : INFO : returning date
+2024-01-28 13:18:21 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:18:21 : transform.py : INFO : running get_file_extension
+2024-01-28 13:18:21 : transform.py : INFO : returning file_type
+2024-01-28 13:18:21 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:18:21 : transform.py : INFO : running validate_col function
+2024-01-28 13:18:21 : transform.py : INFO : returning dataframe
+2024-01-28 13:18:21 : load.py : INFO : running upload_data function
+2024-01-28 13:18:21 : load.py : INFO : uploading data to database
+2024-01-28 13:18:21 : root : INFO : running validate_extension function
+2024-01-28 13:18:21 : root : INFO : returning filepath with extension
+2024-01-28 13:18:21 : extract.py : INFO : running download_file function
+2024-01-28 13:18:21 : root : INFO : running validate_extension function
+2024-01-28 13:18:21 : root : INFO : returning filepath with extension
+2024-01-28 13:18:21 : extract.py : INFO : writing files to directory
+2024-01-28 13:18:21 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:18:21 : transform.py : INFO : creating context manager
+2024-01-28 13:18:21 : transform.py : INFO : executing query
+2024-01-28 13:18:21 : transform.py : INFO : returning date
+2024-01-28 13:18:21 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:18:21 : transform.py : INFO : running get_file_extension
+2024-01-28 13:18:21 : transform.py : INFO : returning file_type
+2024-01-28 13:18:22 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:18:22 : transform.py : INFO : running validate_col function
+2024-01-28 13:18:22 : transform.py : INFO : returning dataframe
+2024-01-28 13:18:22 : load.py : INFO : running upload_data function
+2024-01-28 13:18:22 : load.py : INFO : uploading data to database
+2024-01-28 13:18:22 : root : INFO : running validate_extension function
+2024-01-28 13:18:22 : root : INFO : returning filepath with extension
+2024-01-28 13:18:22 : extract.py : INFO : running download_file function
+2024-01-28 13:18:25 : root : INFO : running validate_extension function
+2024-01-28 13:18:25 : root : INFO : returning filepath with extension
+2024-01-28 13:18:25 : extract.py : INFO : writing files to directory
+2024-01-28 13:18:25 : transform.py : INFO : running get_date_from_db function
+2024-01-28 13:18:25 : transform.py : INFO : creating context manager
+2024-01-28 13:18:25 : transform.py : INFO : executing query
+2024-01-28 13:18:25 : transform.py : INFO : returning date
+2024-01-28 13:18:25 : transform.py : INFO : running get_latest_data function
+2024-01-28 13:18:25 : transform.py : INFO : running get_file_extension
+2024-01-28 13:18:25 : transform.py : INFO : returning file_type
+2024-01-28 13:18:28 : transform.py : INFO : returning pandas dataframe
+2024-01-28 13:18:28 : transform.py : INFO : running validate_col function
+2024-01-28 13:18:28 : transform.py : INFO : returning dataframe
+2024-01-28 13:18:44 : load.py : INFO : running upload_data function
+2024-01-28 13:18:44 : load.py : INFO : uploading data to database
+2024-01-28 13:18:44 : load.py : INFO : running upload_data function
+2024-01-28 13:18:44 : load.py : INFO : uploading data to database
+2024-01-28 13:18:44 : transform.py : INFO : running call_procedure function.
+2024-01-28 13:18:44 : transform.py : INFO : creating context manager
+2024-01-28 13:18:44 : transform.py : INFO : executing procedure
+2024-01-28 13:18:45 : notification.py : INFO : running send_telegram_message func
+2024-01-28 13:18:47 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+2024-01-28 13:18:47 : root : INFO : message has been sent
