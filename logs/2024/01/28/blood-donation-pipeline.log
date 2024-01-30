@@ -74,7 +74,7 @@
 2024-01-28 08:03:17 : load.py : INFO : running upload_data function
 2024-01-28 08:03:17 : load.py : INFO : uploading data to database
 2024-01-28 08:03:17 : notification.py : INFO : running send_telegram_message func
-2024-01-28 08:03:19 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+
 2024-01-28 08:03:19 : root : INFO : message has been sent
 2024-01-28 09:33:57 : load.py : INFO : running prepare_tables_and_conn function
 2024-01-28 09:33:57 : load.py : INFO : creating context manager
@@ -370,7 +370,7 @@
 2024-01-28 09:40:13 : load.py : INFO : running upload_data function
 2024-01-28 09:40:13 : load.py : INFO : uploading data to database
 2024-01-28 09:40:13 : notification.py : INFO : running send_telegram_message func
-2024-01-28 09:40:15 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+
 2024-01-28 09:40:15 : root : INFO : message has been sent
 2024-01-28 09:40:36 : load.py : INFO : running prepare_tables_and_conn function
 2024-01-28 09:40:37 : load.py : INFO : creating context manager
@@ -448,7 +448,7 @@
 2024-01-28 09:40:47 : load.py : INFO : running upload_data function
 2024-01-28 09:40:47 : load.py : INFO : uploading data to database
 2024-01-28 09:40:47 : notification.py : INFO : running send_telegram_message func
-2024-01-28 09:40:49 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+
 2024-01-28 09:40:49 : root : INFO : message has been sent
 2024-01-28 09:46:25 : load.py : INFO : running prepare_tables_and_conn function
 2024-01-28 09:46:25 : load.py : INFO : creating context manager
@@ -591,7 +591,7 @@
 2024-01-28 09:49:10 : load.py : INFO : running upload_data function
 2024-01-28 09:49:10 : load.py : INFO : uploading data to database
 2024-01-28 09:51:21 : notification.py : INFO : running send_telegram_message func
-2024-01-28 09:51:24 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+
 2024-01-28 09:51:24 : root : INFO : message has been sent
 2024-01-28 12:02:38 : load.py : INFO : running prepare_tables_and_conn function
 2024-01-28 12:02:39 : load.py : INFO : creating context manager
@@ -919,7 +919,7 @@
 2024-01-28 12:06:33 : transform.py : INFO : creating context manager
 2024-01-28 12:06:33 : transform.py : INFO : executing procedure
 2024-01-28 12:12:38 : notification.py : INFO : running send_telegram_message func
-2024-01-28 12:12:39 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+
 2024-01-28 12:12:39 : root : INFO : message has been sent
 2024-01-28 13:11:23 : load.py : INFO : running prepare_tables_and_conn function
 2024-01-28 13:11:23 : load.py : INFO : creating context manager
@@ -1307,7 +1307,7 @@
 2024-01-28 13:17:38 : transform.py : INFO : creating context manager
 2024-01-28 13:17:38 : transform.py : INFO : executing procedure
 2024-01-28 13:17:39 : notification.py : INFO : running send_telegram_message func
-2024-01-28 13:17:41 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+
 2024-01-28 13:17:41 : root : INFO : message has been sent
 2024-01-28 13:18:18 : load.py : INFO : running prepare_tables_and_conn function
 2024-01-28 13:18:18 : load.py : INFO : creating context manager
@@ -1410,5 +1410,5 @@
 2024-01-28 13:18:44 : transform.py : INFO : creating context manager
 2024-01-28 13:18:44 : transform.py : INFO : executing procedure
 2024-01-28 13:18:45 : notification.py : INFO : running send_telegram_message func
-2024-01-28 13:18:47 : httpx : INFO : HTTP Request: POST https://api.telegram.org/bot6482941833:AAH7SvOFxKdEfgDrM_64qyiGSoEdbswVjT8/sendMessage "HTTP/1.1 200 OK"
+
 2024-01-28 13:18:47 : root : INFO : message has been sent
