@@ -6,7 +6,7 @@ from airflow.operators.bash import BashOperator
 DESCRIPTION = "used to start the daily blood donation pipeline job"
 TAGS = ["project"]
 START_DATE = datetime(2024, 1, 1, tzinfo=timezone.utc)
-SCHEDULE = "0 1 * * *"
+SCHEDULE = "55 0 * * *"
 CATCHUP = False
 
 # bash commands
